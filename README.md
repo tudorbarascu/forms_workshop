@@ -19,24 +19,36 @@ Widgets
 
  ``CHECK (year IS NULL OR (year >= 1950 AND year <= EXTRACT(YEAR FROM NOW())));``
 
- QGIS Side constraint (2.16):
+ QGIS side constraint (2.16):
 
  ``"year" IS NULL OR (1950 <= "year" AND "year" <= now())``
 
  Description: ``Install year must be between 1950 and the current year.``
-
- QGIS
 
  Possible QGIS widgets:
 
  - Textedit 
  - Range (Editable, Slider, Dial)
 
+- **fk_status** column
+
+ Represents the functioning status of the column.
+ 
+ Possible QGIS widgets:
+
+ - Value Map
+ - Value relation
+
+Virtual fields
+--------------
+
+... 
+
 Features
 --------
 
-Constraints on Widgets since QGIS 2.16
+Constraints on widgets since QGIS 2.16
 http://qgis.org/en/site/forusers/visualchangelog216/#feature-constraints-on-widgets
 
-
+Default values on widgets since QGIS 2.18.
 

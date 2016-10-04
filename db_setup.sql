@@ -21,28 +21,6 @@ CREATE SCHEMA dictionary;
 
 SET search_path = dictionary, pg_catalog;
 
-CREATE TABLE pipe_function (
-	    id integer NOT NULL PRIMARY KEY,
-	    vl_active boolean DEFAULT true,
-	    value_ro character varying(40) UNIQUE
-);
-
-INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (101, true, 'alta');
-INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (102, true, 'necunoscută');
-INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (103, true, 'de determinat');
-INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4103, true, 'Conductă de golire');
-INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4105, true, 'Conductă de distribuţie');
-INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4106, true, 'Branşament comun');
-INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4107, true, 'By-pass');
-INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4108, true, 'Branşament privat');
-INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4109, true, 'Conductă de înaltă presiune');
-INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4110, true, 'Captare dren');
-INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4111, true, 'Prea plin');
-INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4112, true, 'Aerisire');
-INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4101, true, 'Conductă de transport');
-INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4102, true, 'Conductă de hidrant');
-
-
 CREATE TABLE status (
 	    id integer NOT NULL PRIMARY KEY,
 	    vl_active boolean DEFAULT true,
@@ -62,3 +40,41 @@ INSERT INTO status (id, vl_active, value_ro, description_ro) VALUES (1301, true,
 INSERT INTO status (id, vl_active, value_ro, description_ro) VALUES (1304, true, 'Abandonat', 'Obiectul este abandonat iar scoaterea din funcţiune este strict definitivă. Spre exemplu, putem avea o conductă neracordată și improprie transportului de apă dar care poate fi eventual folosită ca mediu protector pentru alte conducte sau pt. cabluri. Alt exemplu este o statie de pompare fară nici o pompă  în stare funcţională.');
 INSERT INTO status (id, vl_active, value_ro, description_ro) VALUES (1306, true, 'Proiect', 'Obiectul face parte dintr-un proiect care se va face sau în curs de realizare. ');
 
+
+ALTER TABLE water.pipe ADD COLUMN fk_status integer;
+UPDATE water.pipe SET fk_status = 1301;
+ALTER TABLE water.pipe ALTER COLUMN fk_status SET NOT NULL;
+ALTER TABLE water.pipe
+  ADD CONSTRAINT pipe_fk_status FOREIGN KEY (fk_status)
+      REFERENCES dictionary.status (id) MATCH FULL
+      ON UPDATE NO ACTION ON DELETE NO ACTION;
+
+
+CREATE TABLE pipe_function (
+            id integer NOT NULL PRIMARY KEY,
+            vl_active boolean DEFAULT true,
+            value_ro character varying(40) UNIQUE
+);
+
+INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (101, true, 'alta');
+INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (102, true, 'necunoscută');
+INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (103, true, 'de determinat');
+INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4103, true, 'Conductă de golire');
+INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4105, true, 'Conductă de distribuţie');
+INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4106, true, 'Branşament comun');
+INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4107, true, 'By-pass');
+INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4108, true, 'Branşament privat');
+INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4109, true, 'Conductă de înaltă presiune');
+INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4110, true, 'Captare dren');
+INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4111, true, 'Prea plin');
+INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4112, true, 'Aerisire');
+INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4101, true, 'Conductă de transport');
+INSERT INTO pipe_function (id, vl_active, value_ro) VALUES (4102, true, 'Conductă de hidrant');
+
+ALTER TABLE water.pipe ADD COLUMN fk_function integer;
+UPDATE water.pipe SET fk_function = 4105;
+ALTER TABLE water.pipe ALTER COLUMN fk_function SET NOT NULL;
+ALTER TABLE water.pipe
+  ADD CONSTRAINT pipe_fk_function FOREIGN KEY (fk_function)
+      REFERENCES dictionary.pipe_function (id) MATCH FULL
+      ON UPDATE NO ACTION ON DELETE NO ACTION;
