@@ -95,4 +95,30 @@ ALTER TABLE water.pipe
       REFERENCES water.pipe (id) MATCH FULL
       ON UPDATE NO ACTION ON DELETE NO ACTION;
 
+-- location
+CREATE TABLE locationtype (
+	    id integer NOT NULL PRIMARY KEY,
+	    vl_active boolean DEFAULT true,
+	    value_fr character varying(50),
+	    value_en character varying(50),
+	    value_ro character varying(50)
+);
+
+COMMENT ON TABLE locationtype IS 'Location type for water specific elements';
+
+INSERT INTO locationtype (id, vl_active, value_fr, value_en, value_ro) VALUES (101, true, 'autre', 'other', 'alta');
+INSERT INTO locationtype (id, vl_active, value_fr, value_en, value_ro) VALUES (102, true, 'inconnu', 'unknown', 'necunoscută');
+INSERT INTO locationtype (id, vl_active, value_fr, value_en, value_ro) VALUES (103, true, 'à déterminer', 'to be determined', 'de determinat');
+INSERT INTO locationtype (id, vl_active, value_fr, value_en, value_ro) VALUES (9601, true, 'aucun', 'none', 'niciunul');
+INSERT INTO locationtype (id, vl_active, value_fr, value_en, value_ro) VALUES (9604, true, 'trottoir', 'sidewalk', 'trotuar');
+INSERT INTO locationtype (id, vl_active, value_fr, value_en, value_ro) VALUES (9605, true, 'carrossable', 'carriageable', 'carosabil');
+INSERT INTO locationtype (id, vl_active, value_fr, value_en, value_ro) VALUES (9606, true, 'pavés', 'cubic street stones', 'piatră cubică');
+INSERT INTO locationtype (id, vl_active, value_fr, value_en, value_ro) VALUES (9607, true, 'gravier', 'gravle', 'pietriş');
+INSERT INTO locationtype (id, vl_active, value_fr, value_en, value_ro) VALUES (9608, true, 'sable', 'sand', 'nisip');
+INSERT INTO locationtype (id, vl_active, value_fr, value_en, value_ro) VALUES (9609, true, 'terre', 'soil', 'pământ');
+INSERT INTO locationtype (id, vl_active, value_fr, value_en, value_ro) VALUES (9610, true, 'béton', 'concrete', 'beton');
+INSERT INTO locationtype (id, vl_active, value_fr, value_en, value_ro) VALUES (9611, true, 'espace vert', 'open space', 'spaţiu verde');
+INSERT INTO locationtype (id, vl_active, value_fr, value_en, value_ro) VALUES (9612, true, 'asphalte', 'asphalt', 'asfalt');
+
+ALTER TABLE water.pipe ADD COLUMN fk_locationtype integer[];
 
