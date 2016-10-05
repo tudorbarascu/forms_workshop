@@ -14,7 +14,7 @@ ALTER TABLE water.pipe ADD COLUMN year smallint;
 -- ALTER TABLE water.pipe ADD CONSTRAINT year_check CHECK (year <= EXTRACT(YEAR FROM NOW()));
 
 ALTER TABLE water.pipe DROP COLUMN year;
-ALTER TABLE water.pipe ADD COLUMN year smallint CHECK (year IS NULL OR year >= 1950 AND year <= EXTRACT(YEAR FROM NOW()));
+ALTER TABLE water.pipe ADD COLUMN year smallint CHECK (year IS NULL OR year > 1950 AND year <= EXTRACT(YEAR FROM NOW()));
 COMMENT ON COLUMN water.pipe.year IS 'Represents the year when the pipe has been installed.';
 
 

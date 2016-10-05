@@ -17,7 +17,7 @@ Widgets
 
  Database side constraint:
 
- ``CHECK (year IS NULL OR year >= 1950 AND year <= EXTRACT(YEAR FROM NOW()));``
+ ``CHECK (year IS NULL OR year > 1950 AND year <= EXTRACT(YEAR FROM NOW()));``
 
  QGIS side constraint (2.16):
 
