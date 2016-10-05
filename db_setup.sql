@@ -4,6 +4,8 @@ CREATE DATABASE forms_workshop ENCODING UTF8;
 CREATE EXTENSION postgis;
 CREATE SCHEMA water;
 
+-- pipe table
+
 CREATE TABLE water.pipe (id serial PRIMARY KEY, geom geometry(LINESTRING, 3844));
 INSERT INTO water.pipe (geom) VALUES (ST_GeomFromText('LINESTRING(450300  400520, 450320 400750)', 3844));
 
@@ -12,7 +14,7 @@ ALTER TABLE water.pipe ADD COLUMN year smallint;
 -- ALTER TABLE water.pipe ADD CONSTRAINT year_check CHECK (year <= EXTRACT(YEAR FROM NOW()));
 
 ALTER TABLE water.pipe DROP COLUMN year;
-ALTER TABLE water.pipe ADD COLUMN year smallint CHECK (year IS NULL OR (year >= 1950 AND year <= EXTRACT(YEAR FROM NOW())));
+ALTER TABLE water.pipe ADD COLUMN year smallint CHECK (year IS NULL OR year >= 1950 AND year <= EXTRACT(YEAR FROM NOW()));
 COMMENT ON COLUMN water.pipe.year IS 'Represents the year when the pipe has been installed.';
 
 
@@ -20,6 +22,9 @@ COMMENT ON COLUMN water.pipe.year IS 'Represents the year when the pipe has been
 CREATE SCHEMA dictionary;
 
 SET search_path = dictionary, pg_catalog;
+
+
+-- status values table
 
 CREATE TABLE status (
 	    id integer NOT NULL PRIMARY KEY,
@@ -50,6 +55,8 @@ ALTER TABLE water.pipe
       ON UPDATE NO ACTION ON DELETE NO ACTION;
 
 
+-- pipe function values table
+
 CREATE TABLE pipe_function (
             id integer NOT NULL PRIMARY KEY,
             vl_active boolean DEFAULT true,
@@ -78,3 +85,14 @@ ALTER TABLE water.pipe
   ADD CONSTRAINT pipe_fk_function FOREIGN KEY (fk_function)
       REFERENCES dictionary.pipe_function (id) MATCH FULL
       ON UPDATE NO ACTION ON DELETE NO ACTION;
+
+--
+
+ALTER TABLE water.pipe ADD COLUMN fk_parent integer;
+
+ALTER TABLE water.pipe
+  ADD CONSTRAINT pipe_fk_parent FOREIGN KEY (fk_parent)
+      REFERENCES water.pipe (id) MATCH FULL
+      ON UPDATE NO ACTION ON DELETE NO ACTION;
+
+
