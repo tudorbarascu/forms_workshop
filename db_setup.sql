@@ -770,6 +770,8 @@ CREATE TABLE water.customers
 (id serial PRIMARY key,
 name text,
 fk_pipe integer,
+last_index float,
+date_last_index timestamp,
 geom geometry(POINT, 3844)
 );
 
