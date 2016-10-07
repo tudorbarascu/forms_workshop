@@ -21,7 +21,7 @@ COMMENT ON COLUMN water.pipe.year IS 'Represents the year when the pipe has been
 -- Create the schema that will hold the dictionaries
 CREATE SCHEMA dictionary;
 
-SET search_path = dictionary, pg_catalog;
+SET search_path = dictionary, pg_catalog, public;
 
 
 -- status values table
@@ -762,4 +762,18 @@ ALTER TABLE water.pipe ADD COLUMN fk_material integer;
 ALTER TABLE water.pipe
   ADD CONSTRAINT fk_pipe_material FOREIGN KEY (fk_material)
       REFERENCES dictionary.pipe_material (id) MATCH FULL
+      ON UPDATE NO ACTION ON DELETE NO ACTION;
+
+-- Customer table
+
+CREATE TABLE water.customers
+(id serial PRIMARY key,
+name text,
+fk_pipe integer,
+geom geometry(POINT, 3844)
+);
+
+ALTER TABLE water.customers
+  ADD CONSTRAINT fk_pipe FOREIGN KEY (fk_pipe)
+      REFERENCES water.pipe (id) MATCH FULL
       ON UPDATE NO ACTION ON DELETE NO ACTION;
