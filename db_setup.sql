@@ -93,7 +93,7 @@ ALTER TABLE water.pipe ADD COLUMN fk_parent integer;
 ALTER TABLE water.pipe
   ADD CONSTRAINT pipe_fk_parent FOREIGN KEY (fk_parent)
       REFERENCES water.pipe (id) MATCH FULL
-      ON UPDATE NO ACTION ON DELETE NO ACTION;
+      ON UPDATE CASCADE ON DELETE RESTRICT;
 
 -- location
 CREATE TABLE locationtype (
