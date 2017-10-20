@@ -6,27 +6,27 @@
   <trust active="0"/>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-group expanded="1" checked="Qt::Checked" name="Dicționare">
+    <layer-tree-group expanded="0" checked="Qt::Checked" name="Dicționare">
       <customproperties/>
-      <layer-tree-layer source="/home/web/Downloads/diverse/courses/forms_workshop/qtibia.gpkg|layerid=2" providerKey="ogr" expanded="1" checked="Qt::Checked" id="qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175" name="consumator">
+      <layer-tree-layer source="/home/web/Downloads/diverse/courses/forms_workshop/qtibia.gpkg|layerid=8" providerKey="ogr" expanded="1" checked="Qt::Checked" id="qtibia_stare_functionala_6a116d7d_fbe0_47d3_9206_e90dede590c6" name="stare_funcțională">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="/home/web/Downloads/diverse/courses/forms_workshop/qtibia.gpkg|layerid=7" providerKey="ogr" expanded="1" checked="Qt::Checked" id="qtibia_conducta_functie_400d525a_4f73_4aba_afa5_6737097725b1" name="conductă_funcție">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer source="/home/web/Downloads/diverse/courses/forms_workshop/qtibia.gpkg|layerid=5" providerKey="ogr" expanded="1" checked="Qt::Checked" id="qtibia_locatie_tip_930ff6fc_9ba0_4869_94f3_ab6cab1c73ca" name="locație_tip">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer source="/home/web/Downloads/diverse/courses/forms_workshop/qtibia.gpkg|layerid=6" providerKey="ogr" expanded="1" checked="Qt::Checked" id="qtibia_conducta_functie_748fb5a8_1812_4040_9b1f_dde1eec3a52c" name="conductă_funcție">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer source="/home/web/Downloads/diverse/courses/forms_workshop/qtibia.gpkg|layerid=7" providerKey="ogr" expanded="1" checked="Qt::Checked" id="qtibia_stare_functionala_1b915797_bca3_45ba_bca8_5263c36302c1" name="stare_functională">
-        <customproperties/>
-      </layer-tree-layer>
       <layer-tree-layer source="/home/web/Downloads/diverse/courses/forms_workshop/qtibia.gpkg|layerid=2" providerKey="ogr" expanded="1" checked="Qt::Checked" id="qtibia_pipe_material_7c212f3d_0cc1_490f_aaf0_64d382ce532a" name="material_conductă">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer source="/home/web/Downloads/diverse/courses/forms_workshop/qtibia.gpkg|layerid=3" providerKey="ogr" expanded="1" checked="Qt::Checked" id="qtibia_constructie_tip_ef5cc136_34fc_4e54_a04d_82318a7324c0" name="construcție_tip">
+      <layer-tree-layer source="/home/web/Downloads/diverse/courses/forms_workshop/qtibia.gpkg|layerid=3" providerKey="ogr" expanded="1" checked="Qt::Unchecked" id="qtibia_constructie_tip_ef5cc136_34fc_4e54_a04d_82318a7324c0" name="construcție_tip">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
+    <layer-tree-layer source="/home/web/Downloads/diverse/courses/forms_workshop/qtibia.gpkg|layerid=2" providerKey="ogr" expanded="1" checked="Qt::Checked" id="qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175" name="consumator">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer source="/home/web/Downloads/diverse/courses/forms_workshop/qtibia.gpkg|layerid=3" providerKey="ogr" expanded="1" checked="Qt::Checked" id="qtibia_pipe_03d07cf2_1709_4c6c_9667_76a3f7a7100c" name="conducte_branșamente">
       <customproperties/>
     </layer-tree-layer>
@@ -45,14 +45,14 @@
       <item>qtibia_limite_a7398509_c507_42f4_8bfd_e2cd1fe86d79</item>
       <item>qtibia_pipe_material_7c212f3d_0cc1_490f_aaf0_64d382ce532a</item>
       <item>qtibia_locatie_tip_930ff6fc_9ba0_4869_94f3_ab6cab1c73ca</item>
-      <item>qtibia_stare_functionala_1b915797_bca3_45ba_bca8_5263c36302c1</item>
       <item>qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175</item>
-      <item>qtibia_conducta_functie_748fb5a8_1812_4040_9b1f_dde1eec3a52c</item>
       <item>qtibia_pipe_03d07cf2_1709_4c6c_9667_76a3f7a7100c</item>
       <item>Ortofoto2015201710192309440601176636576</item>
+      <item>qtibia_conducta_functie_400d525a_4f73_4aba_afa5_6737097725b1</item>
+      <item>qtibia_stare_functionala_6a116d7d_fbe0_47d3_9206_e90dede590c6</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings unit="1" enabled="0" intersection-snapping="1" tolerance="30" mode="2" type="2">
+  <snapping-settings unit="1" enabled="1" intersection-snapping="0" tolerance="30" mode="1" type="2">
     <individual-layer-settings>
       <layer-setting enabled="1" tolerance="30" type="2" id="qtibia_pipe_03d07cf2_1709_4c6c_9667_76a3f7a7100c" units="1"/>
       <layer-setting enabled="1" tolerance="30" type="2" id="qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175" units="1"/>
@@ -66,10 +66,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>450403.33627204020740464</xmin>
-      <ymin>399902.74401763232890517</ymin>
-      <xmax>450529.33627204020740464</xmax>
-      <ymax>401351.74401763232890517</ymax>
+      <xmin>450420.71725179231725633</xmin>
+      <ymin>400307.81314837816171348</ymin>
+      <xmax>450473.93352319276891649</xmax>
+      <ymax>400919.80026948335580528</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -97,10 +97,15 @@
     </layer_coordinate_transform_info>
   </mapcanvas>
   <legend updateDrawingOrder="true">
-    <legendgroup checked="Qt::Checked" open="true" name="Dicționare">
-      <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" drawingOrder="-1" name="consumator">
+    <legendgroup checked="Qt::Checked" open="false" name="Dicționare">
+      <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" drawingOrder="-1" name="stare_funcțională">
         <filegroup open="true" hidden="false">
-          <legendlayerfile visible="1" layerid="qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175" isInOverview="0"/>
+          <legendlayerfile visible="1" layerid="qtibia_stare_functionala_6a116d7d_fbe0_47d3_9206_e90dede590c6" isInOverview="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" drawingOrder="-1" name="conductă_funcție">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile visible="1" layerid="qtibia_conducta_functie_400d525a_4f73_4aba_afa5_6737097725b1" isInOverview="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" drawingOrder="-1" name="locație_tip">
@@ -108,27 +113,22 @@
           <legendlayerfile visible="1" layerid="qtibia_locatie_tip_930ff6fc_9ba0_4869_94f3_ab6cab1c73ca" isInOverview="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" drawingOrder="-1" name="conductă_funcție">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile visible="1" layerid="qtibia_conducta_functie_748fb5a8_1812_4040_9b1f_dde1eec3a52c" isInOverview="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" drawingOrder="-1" name="stare_functională">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile visible="1" layerid="qtibia_stare_functionala_1b915797_bca3_45ba_bca8_5263c36302c1" isInOverview="0"/>
-        </filegroup>
-      </legendlayer>
       <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" drawingOrder="-1" name="material_conductă">
         <filegroup open="true" hidden="false">
           <legendlayerfile visible="1" layerid="qtibia_pipe_material_7c212f3d_0cc1_490f_aaf0_64d382ce532a" isInOverview="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" drawingOrder="-1" name="construcție_tip">
+      <legendlayer checked="Qt::Unchecked" open="true" showFeatureCount="0" drawingOrder="-1" name="construcție_tip">
         <filegroup open="true" hidden="false">
-          <legendlayerfile visible="1" layerid="qtibia_constructie_tip_ef5cc136_34fc_4e54_a04d_82318a7324c0" isInOverview="0"/>
+          <legendlayerfile visible="0" layerid="qtibia_constructie_tip_ef5cc136_34fc_4e54_a04d_82318a7324c0" isInOverview="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
+    <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" drawingOrder="-1" name="consumator">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" layerid="qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" drawingOrder="-1" name="conducte_branșamente">
       <filegroup open="true" hidden="false">
         <legendlayerfile visible="1" layerid="qtibia_pipe_03d07cf2_1709_4c6c_9667_76a3f7a7100c" isInOverview="0"/>
@@ -230,8 +230,8 @@
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer refreshOnNotifyMessage="" autoRefreshTime="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" geometry="No geometry" maxScale="0" autoRefreshEnabled="0" readOnly="0" minScale="1e+8" type="vector">
-      <id>qtibia_conducta_functie_748fb5a8_1812_4040_9b1f_dde1eec3a52c</id>
-      <datasource>./qtibia.gpkg|layerid=6</datasource>
+      <id>qtibia_conducta_functie_400d525a_4f73_4aba_afa5_6737097725b1</id>
+      <datasource>./qtibia.gpkg|layerid=7</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -260,13 +260,13 @@
         <crs>
           <spatialrefsys>
             <proj4></proj4>
-            <srsid>100030</srsid>
+            <srsid>0</srsid>
             <srid>0</srid>
             <authid></authid>
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -304,20 +304,6 @@
             </config>
           </editWidget>
         </field>
-        <field name="value_fr">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="value_en">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
         <field name="value_ro">
           <editWidget type="">
             <config>
@@ -330,9 +316,7 @@
         <alias field="fid" index="0" name=""/>
         <alias field="id" index="1" name=""/>
         <alias field="vl_active" index="2" name=""/>
-        <alias field="value_fr" index="3" name=""/>
-        <alias field="value_en" index="4" name=""/>
-        <alias field="value_ro" index="5" name=""/>
+        <alias field="value_ro" index="3" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -340,24 +324,18 @@
         <default field="fid" applyOnUpdate="0" expression=""/>
         <default field="id" applyOnUpdate="0" expression=""/>
         <default field="vl_active" applyOnUpdate="0" expression=""/>
-        <default field="value_fr" applyOnUpdate="0" expression=""/>
-        <default field="value_en" applyOnUpdate="0" expression=""/>
         <default field="value_ro" applyOnUpdate="0" expression=""/>
       </defaults>
       <constraints>
         <constraint field="fid" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
         <constraint field="id" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
         <constraint field="vl_active" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="value_fr" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="value_en" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
         <constraint field="value_ro" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint field="fid" desc="" exp=""/>
         <constraint field="id" desc="" exp=""/>
         <constraint field="vl_active" desc="" exp=""/>
-        <constraint field="value_fr" desc="" exp=""/>
-        <constraint field="value_en" desc="" exp=""/>
         <constraint field="value_ro" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
@@ -908,10 +886,10 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer refreshOnNotifyMessage="" simplifyDrawingTol="1" autoRefreshTime="0" simplifyLocal="1" refreshOnNotifyEnabled="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" geometry="Line" maxScale="0" autoRefreshEnabled="0" readOnly="0" minScale="1e+8" type="vector" simplifyAlgorithm="0">
       <extent>
-        <xmin>449558</xmin>
-        <ymin>400090</ymin>
-        <xmax>451334</xmax>
-        <ymax>401222</ymax>
+        <xmin>449558.30585276597412303</xmin>
+        <ymin>400090.40280000097118318</ymin>
+        <xmax>451333.76409999997122213</xmax>
+        <ymax>401221.5524999980116263</ymax>
       </extent>
       <id>qtibia_limite_a7398509_c507_42f4_8bfd_e2cd1fe86d79</id>
       <datasource>./qtibia.gpkg|layerid=1</datasource>
@@ -1284,6 +1262,9 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>id</value>
+        </property>
         <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -1315,23 +1296,44 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field name="year">
-          <editWidget type="Range">
+          <editWidget type="TextEdit">
             <config>
-              <Option/>
+              <Option type="Map">
+                <Option type="bool" value="false" name="IsMultiline"/>
+                <Option type="bool" value="false" name="UseHtml"/>
+              </Option>
             </config>
           </editWidget>
         </field>
         <field name="fk_status">
-          <editWidget type="Range">
+          <editWidget type="ValueRelation">
             <config>
-              <Option/>
+              <Option type="Map">
+                <Option type="bool" value="false" name="AllowMulti"/>
+                <Option type="bool" value="false" name="AllowNull"/>
+                <Option type="QString" value="" name="FilterExpression"/>
+                <Option type="QString" value="id" name="Key"/>
+                <Option type="QString" value="qtibia_stare_functionala_6a116d7d_fbe0_47d3_9206_e90dede590c6" name="Layer"/>
+                <Option type="bool" value="false" name="OrderByValue"/>
+                <Option type="bool" value="false" name="UseCompleter"/>
+                <Option type="QString" value="value_ro" name="Value"/>
+              </Option>
             </config>
           </editWidget>
         </field>
         <field name="fk_function">
-          <editWidget type="Range">
+          <editWidget type="ValueRelation">
             <config>
-              <Option/>
+              <Option type="Map">
+                <Option type="bool" value="false" name="AllowMulti"/>
+                <Option type="bool" value="false" name="AllowNull"/>
+                <Option type="QString" value="" name="FilterExpression"/>
+                <Option type="QString" value="id" name="Key"/>
+                <Option type="QString" value="qtibia_conducta_functie_400d525a_4f73_4aba_afa5_6737097725b1" name="Layer"/>
+                <Option type="bool" value="false" name="OrderByValue"/>
+                <Option type="bool" value="false" name="UseCompleter"/>
+                <Option type="QString" value="value_ro" name="Value"/>
+              </Option>
             </config>
           </editWidget>
         </field>
@@ -1359,9 +1361,9 @@ def my_form_open(dialog, layer, feature):
       </fieldConfiguration>
       <aliases>
         <alias field="id" index="0" name=""/>
-        <alias field="year" index="1" name=""/>
-        <alias field="fk_status" index="2" name=""/>
-        <alias field="fk_function" index="3" name=""/>
+        <alias field="year" index="1" name="an"/>
+        <alias field="fk_status" index="2" name="Stare funcțională"/>
+        <alias field="fk_function" index="3" name="Funcție"/>
         <alias field="fk_parent" index="4" name=""/>
         <alias field="fk_locationtype" index="5" name=""/>
         <alias field="fk_material" index="6" name=""/>
@@ -1379,16 +1381,16 @@ def my_form_open(dialog, layer, feature):
       </defaults>
       <constraints>
         <constraint field="id" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="year" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="year" notnull_strength="0" exp_strength="1" constraints="4" unique_strength="0"/>
         <constraint field="fk_status" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
-        <constraint field="fk_function" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="fk_function" notnull_strength="1" exp_strength="0" constraints="1" unique_strength="0"/>
         <constraint field="fk_parent" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
         <constraint field="fk_locationtype" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
         <constraint field="fk_material" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint field="id" desc="" exp=""/>
-        <constraint field="year" desc="" exp=""/>
+        <constraint field="year" desc="Anul trebuie să fie între 1900 și anul curent" exp="&quot;year&quot; is NULL OR &quot;year&quot; &lt;=  now() AND &quot;year&quot; >= 1900"/>
         <constraint field="fk_status" desc="" exp=""/>
         <constraint field="fk_function" desc="" exp=""/>
         <constraint field="fk_parent" desc="" exp=""/>
@@ -1638,12 +1640,12 @@ def my_form_open(dialog, layer, feature):
       <mapTip></mapTip>
     </maplayer>
     <maplayer refreshOnNotifyMessage="" autoRefreshTime="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" geometry="No geometry" maxScale="0" autoRefreshEnabled="0" readOnly="0" minScale="1e+8" type="vector">
-      <id>qtibia_stare_functionala_1b915797_bca3_45ba_bca8_5263c36302c1</id>
-      <datasource>./qtibia.gpkg|layerid=7</datasource>
+      <id>qtibia_stare_functionala_6a116d7d_fbe0_47d3_9206_e90dede590c6</id>
+      <datasource>./qtibia.gpkg|layerid=8</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>stare_functională</layername>
+      <layername>stare_funcțională</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -1719,12 +1721,20 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
+        <field name="description_ro">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
       </fieldConfiguration>
       <aliases>
         <alias field="fid" index="0" name=""/>
         <alias field="id" index="1" name=""/>
         <alias field="vl_active" index="2" name=""/>
         <alias field="value_ro" index="3" name=""/>
+        <alias field="description_ro" index="4" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1733,18 +1743,21 @@ def my_form_open(dialog, layer, feature):
         <default field="id" applyOnUpdate="0" expression=""/>
         <default field="vl_active" applyOnUpdate="0" expression=""/>
         <default field="value_ro" applyOnUpdate="0" expression=""/>
+        <default field="description_ro" applyOnUpdate="0" expression=""/>
       </defaults>
       <constraints>
         <constraint field="fid" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
         <constraint field="id" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
         <constraint field="vl_active" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
         <constraint field="value_ro" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="description_ro" notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint field="fid" desc="" exp=""/>
         <constraint field="id" desc="" exp=""/>
         <constraint field="vl_active" desc="" exp=""/>
         <constraint field="value_ro" desc="" exp=""/>
+        <constraint field="description_ro" desc="" exp=""/>
       </constraintExpressions>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
@@ -1961,11 +1974,11 @@ def my_form_open(dialog, layer, feature):
     <layer id="qtibia_limite_a7398509_c507_42f4_8bfd_e2cd1fe86d79"/>
     <layer id="qtibia_pipe_material_7c212f3d_0cc1_490f_aaf0_64d382ce532a"/>
     <layer id="qtibia_locatie_tip_930ff6fc_9ba0_4869_94f3_ab6cab1c73ca"/>
-    <layer id="qtibia_stare_functionala_1b915797_bca3_45ba_bca8_5263c36302c1"/>
     <layer id="qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175"/>
-    <layer id="qtibia_conducta_functie_748fb5a8_1812_4040_9b1f_dde1eec3a52c"/>
     <layer id="qtibia_pipe_03d07cf2_1709_4c6c_9667_76a3f7a7100c"/>
     <layer id="Ortofoto2015201710192309440601176636576"/>
+    <layer id="qtibia_conducta_functie_400d525a_4f73_4aba_afa5_6737097725b1"/>
+    <layer id="qtibia_stare_functionala_6a116d7d_fbe0_47d3_9206_e90dede590c6"/>
   </layerorder>
   <properties>
     <Gui>
@@ -1989,8 +2002,8 @@ def my_form_open(dialog, layer, feature):
       <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
       <DrawRectOnly type="bool">false</DrawRectOnly>
       <CandidatesLine type="int">50</CandidatesLine>
-      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
       <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
       <ShowingAllLabels type="bool">false</ShowingAllLabels>
       <SearchMethod type="int">0</SearchMethod>
     </PAL>
@@ -2009,7 +2022,7 @@ def my_form_open(dialog, layer, feature):
       <ProjectCRSProj4String type="QString">+proj=sterea +lat_0=46 +lon_0=25 +k=0.99975 +x_0=500000 +y_0=500000 +ellps=krass +towgs84=33.4,-146.6,-76.3,-0.359,-0.053,0.844,-0.84 +units=m +no_defs</ProjectCRSProj4String>
     </SpatialRefSys>
     <Digitizing>
-      <TopologicalEditing type="int">1</TopologicalEditing>
+      <TopologicalEditing type="int">0</TopologicalEditing>
     </Digitizing>
   </properties>
   <visibility-presets/>
