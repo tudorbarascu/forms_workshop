@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="2.18.0">
+<qgis projectname="" version="2.18.13">
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
@@ -7,23 +7,26 @@
     <customproperties/>
     <layer-tree-group expanded="1" checked="Qt::Checked" name="Dictionary">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="pipe_material20161005220653858" name="pipe_material">
+      <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="pipe_material20161005220653858" source="service='forms_workshop' sslmode=disable key='id' table=&quot;dictionary&quot;.&quot;pipe_material&quot; sql=" name="pipe_material">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="locationtype20161005153829468" name="locationtype">
+      <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="locationtype20161005153829468" source="service='forms_workshop' sslmode=disable key='id' table=&quot;dictionary&quot;.&quot;locationtype&quot; sql=" name="locationtype">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="pipe_function20161004151918403" name="pipe_function">
+      <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="pipe_function20161004151918403" source="service='forms_workshop' sslmode=disable key='id' table=&quot;dictionary&quot;.&quot;pipe_function&quot; sql=" name="pipe_function">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="status20161004134722770" name="status">
+      <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="status20161004134722770" source="service='forms_workshop' sslmode=disable key='id' table=&quot;dictionary&quot;.&quot;status&quot; sql=&quot;vl_active&quot; = 't'" name="status">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="customers20161007101257184" name="customers">
+    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="customers20161007101257184" source="service='forms_workshop' sslmode=disable key='id' srid=3844 type=Point table=&quot;water&quot;.&quot;customers&quot; (geom) sql=" name="customers">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="pipe20161003132619725" name="pipe">
+    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="pipe20161003132619725" source="service='forms_workshop' sslmode=disable key='id' srid=3844 type=LineString table=&quot;water&quot;.&quot;pipe&quot; (geom) sql=" name="pipe">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="Ortofoto201520171019124126118" source="contextualWMSLegend=0&amp;crs=EPSG:3844&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=of-2015-wmts&amp;styles=default&amp;tileMatrixSet=96dpi_3844_500_grid&amp;url=https://gis.apavil.ro/mapproxy/ortofoto/wmts/1.0.0/WMTSCapabilities.xml" name="Ortofoto2015">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -41,10 +44,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>450274.22943950223270804</xmin>
-      <ymin>400226.08506672631483525</ymin>
-      <xmax>450358.22943950223270804</xmax>
-      <ymax>401192.08506672631483525</ymax>
+      <xmin>450086.96305552218109369</xmin>
+      <ymin>400170.07922846364090219</ymin>
+      <xmax>450107.96305552218109369</xmax>
+      <ymax>400411.57922846364090219</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -64,6 +67,8 @@
     <layer_coordinate_transform_info>
       <layer_coordinate_transform destAuthId="EPSG:3844" srcAuthId="EPSG:3844" srcDatumTransform="-1" destDatumTransform="-1" layerid="customers20161007101257184"/>
       <layer_coordinate_transform destAuthId="EPSG:3844" srcAuthId="EPSG:3844" srcDatumTransform="-1" destDatumTransform="-1" layerid="pipe20161003132619725"/>
+      <layer_coordinate_transform destAuthId="EPSG:3844" srcAuthId="EPSG:3844" srcDatumTransform="-1" destDatumTransform="-1" layerid="constructii20171019123137408"/>
+      <layer_coordinate_transform destAuthId="EPSG:3844" srcAuthId="EPSG:3844" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ortofoto201520171019124126118"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
@@ -74,6 +79,7 @@
       <item>locationtype20161005153829468</item>
       <item>pipe_material20161005220653858</item>
       <item>customers20161007101257184</item>
+      <item>Ortofoto201520171019124126118</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -109,9 +115,59 @@
         <legendlayerfile isInOverview="0" layerid="pipe20161003132619725" visible="1"/>
       </filegroup>
     </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Ortofoto2015" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Ortofoto201520171019124126118" visible="1"/>
+      </filegroup>
+    </legendlayer>
   </legend>
   <projectlayers>
-    <maplayer simplifyAlgorithm="0" minimumScale="100000" maximumScale="1e+08" simplifyDrawingHints="0" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>414384.78943437547422945</xmin>
+        <ymin>338847.36891328706406057</ymin>
+        <xmax>460992.10188324050977826</xmax>
+        <ymax>409503.04751132894307375</ymax>
+      </extent>
+      <id>Ortofoto201520171019124126118</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3844&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=of-2015-wmts&amp;styles=default&amp;tileMatrixSet=96dpi_3844_500_grid&amp;url=https://gis.apavil.ro/mapproxy/ortofoto/wmts/1.0.0/WMTSCapabilities.xml</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Ortofoto2015</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=sterea +lat_0=46 +lon_0=25 +k=0.99975 +x_0=500000 +y_0=500000 +ellps=krass +towgs84=33.4,-146.6,-76.3,-0.359,-0.053,0.844,-0.84 +units=m +no_defs</proj4>
+          <srsid>27265</srsid>
+          <srid>3844</srid>
+          <authid>EPSG:3844</authid>
+          <description>Pulkovo 1942(58) / Stereo70</description>
+          <projectionacronym>sterea</projectionacronym>
+          <ellipsoidacronym>krass</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="100000" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>customers20161007101257184</id>
       <datasource>service='forms_workshop' sslmode=disable key='id' srid=3844 type=Point table="water"."customers" (geom) sql=</datasource>
       <keywordList>
@@ -131,17 +187,9 @@
         </spatialrefsys>
       </srs>
       <provider encoding="System">postgres</provider>
-      <previewExpression>COALESCE( "name", '&lt;NULL>' )</previewExpression>
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
-      <defaults>
-        <default field="id" expression=""/>
-        <default field="name" expression=""/>
-        <default field="fk_pipe" expression=""/>
-        <default field="last_index" expression=""/>
-        <default field="date_last_index" expression=""/>
-      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -399,7 +447,7 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1166674208">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="id"/>
           <column width="-1" hidden="0" type="field" name="name"/>
@@ -437,6 +485,14 @@ def my_form_open(dialog, layer, feature):
         <rowstyles/>
         <fieldstyles/>
       </conditionalstyles>
+      <defaults>
+        <default field="id" expression=""/>
+        <default field="name" expression=""/>
+        <default field="fk_pipe" expression=""/>
+        <default field="last_index" expression=""/>
+        <default field="date_last_index" expression=""/>
+      </defaults>
+      <previewExpression>COALESCE( "name", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>locationtype20161005153829468</id>
@@ -459,17 +515,9 @@ def my_form_open(dialog, layer, feature):
       </srs>
       <customproperties/>
       <provider encoding="System">postgres</provider>
-      <previewExpression></previewExpression>
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
-      <defaults>
-        <default field="id" expression=""/>
-        <default field="vl_active" expression=""/>
-        <default field="value_fr" expression=""/>
-        <default field="value_en" expression=""/>
-        <default field="value_ro" expression=""/>
-      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -501,7 +549,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="7405683">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
       <editform>.</editform>
@@ -516,8 +564,16 @@ def my_form_open(dialog, layer, feature):
         <rowstyles/>
         <fieldstyles/>
       </conditionalstyles>
+      <defaults>
+        <default field="id" expression=""/>
+        <default field="vl_active" expression=""/>
+        <default field="value_fr" expression=""/>
+        <default field="value_en" expression=""/>
+        <default field="value_ro" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="100000" maximumScale="1e+08" simplifyDrawingHints="0" readOnly="0" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="100000" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>450300</xmin>
         <ymin>400520</ymin>
@@ -543,22 +599,11 @@ def my_form_open(dialog, layer, feature):
         </spatialrefsys>
       </srs>
       <provider encoding="UTF-8">postgres</provider>
-      <previewExpression>id</previewExpression>
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields>
         <field typeName="double precision" precision="-1" expression="round($length, 2)" length="-1" type="6" comment="" name="lungimea"/>
       </expressionfields>
-      <defaults>
-        <default field="id" expression=""/>
-        <default field="year" expression=""/>
-        <default field="fk_status" expression="1301"/>
-        <default field="fk_function" expression=""/>
-        <default field="fk_parent" expression=""/>
-        <default field="fk_locationtype" expression=""/>
-        <default field="fk_material" expression=""/>
-        <default field="lungimea" expression=""/>
-      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -838,7 +883,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="7209065">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="id"/>
           <column width="-1" hidden="0" type="field" name="year"/>
@@ -893,6 +938,17 @@ def my_form_open(dialog, layer, feature):
           </fieldstyle>
         </fieldstyles>
       </conditionalstyles>
+      <defaults>
+        <default field="id" expression=""/>
+        <default field="year" expression=""/>
+        <default field="fk_status" expression="1301"/>
+        <default field="fk_function" expression=""/>
+        <default field="fk_parent" expression=""/>
+        <default field="fk_locationtype" expression=""/>
+        <default field="fk_material" expression=""/>
+        <default field="lungimea" expression=""/>
+      </defaults>
+      <previewExpression>id</previewExpression>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>pipe_function20161004151918403</id>
@@ -915,15 +971,9 @@ def my_form_open(dialog, layer, feature):
       </srs>
       <customproperties/>
       <provider encoding="UTF-8">postgres</provider>
-      <previewExpression></previewExpression>
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
-      <defaults>
-        <default field="id" expression=""/>
-        <default field="vl_active" expression=""/>
-        <default field="value_ro" expression=""/>
-      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -962,6 +1012,12 @@ def my_form_open(dialog, layer, feature):
         <rowstyles/>
         <fieldstyles/>
       </conditionalstyles>
+      <defaults>
+        <default field="id" expression=""/>
+        <default field="vl_active" expression=""/>
+        <default field="value_ro" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>pipe_material20161005220653858</id>
@@ -984,27 +1040,9 @@ def my_form_open(dialog, layer, feature):
       </srs>
       <customproperties/>
       <provider encoding="System">postgres</provider>
-      <previewExpression>_displayname_ro</previewExpression>
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
-      <defaults>
-        <default field="id" expression=""/>
-        <default field="vl_active" expression=""/>
-        <default field="short_ro" expression=""/>
-        <default field="value_ro" expression=""/>
-        <default field="_displayname_fr" expression=""/>
-        <default field="_displayname_en" expression=""/>
-        <default field="_displayname_ro" expression=""/>
-        <default field="diameter" expression=""/>
-        <default field="diameter_nominal" expression=""/>
-        <default field="diameter_internal" expression=""/>
-        <default field="diameter_external" expression=""/>
-        <default field="pressure_nominal" expression=""/>
-        <default field="sdr" expression=""/>
-        <default field="wall_thickness" expression=""/>
-        <default field="sn" expression=""/>
-      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -1076,7 +1114,7 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;short_ro&quot;" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;vl_active&quot;" sortOrder="1">
         <columns>
           <column width="-1" hidden="0" type="field" name="id"/>
           <column width="-1" hidden="0" type="field" name="vl_active"/>
@@ -1108,6 +1146,24 @@ def my_form_open(dialog, layer, feature):
         <rowstyles/>
         <fieldstyles/>
       </conditionalstyles>
+      <defaults>
+        <default field="id" expression=""/>
+        <default field="vl_active" expression=""/>
+        <default field="short_ro" expression=""/>
+        <default field="value_ro" expression=""/>
+        <default field="_displayname_fr" expression=""/>
+        <default field="_displayname_en" expression=""/>
+        <default field="_displayname_ro" expression=""/>
+        <default field="diameter" expression=""/>
+        <default field="diameter_nominal" expression=""/>
+        <default field="diameter_internal" expression=""/>
+        <default field="diameter_external" expression=""/>
+        <default field="pressure_nominal" expression=""/>
+        <default field="sdr" expression=""/>
+        <default field="wall_thickness" expression=""/>
+        <default field="sn" expression=""/>
+      </defaults>
+      <previewExpression>_displayname_ro</previewExpression>
     </maplayer>
     <maplayer minimumScale="100000" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>status20161004134722770</id>
@@ -1134,16 +1190,9 @@ def my_form_open(dialog, layer, feature):
         <property key="variableValues" value=""/>
       </customproperties>
       <provider encoding="UTF-8">postgres</provider>
-      <previewExpression>id</previewExpression>
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
-      <defaults>
-        <default field="id" expression=""/>
-        <default field="vl_active" expression=""/>
-        <default field="value_ro" expression=""/>
-        <default field="description_ro" expression=""/>
-      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -1208,6 +1257,13 @@ def my_form_open(dialog, layer, feature):
         <rowstyles/>
         <fieldstyles/>
       </conditionalstyles>
+      <defaults>
+        <default field="id" expression=""/>
+        <default field="vl_active" expression=""/>
+        <default field="value_ro" expression=""/>
+        <default field="description_ro" expression=""/>
+      </defaults>
+      <previewExpression>id</previewExpression>
     </maplayer>
   </projectlayers>
   <properties>
