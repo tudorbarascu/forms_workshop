@@ -1263,7 +1263,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer maxScale="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" type="vector" readOnly="0" geometry="No geometry" autoRefreshTime="0" minScale="1e+8">
       <id>qtibia_pipe_material_3913202d_18e3_47d3_94db_42a9a396593a</id>
-      <datasource>./qtibia.gpkg|layerid=4</datasource>
+      <datasource>./qtibia.gpkg|layername=pipe_material</datasource>
       <keywordList>
         <value></value>
       </keywordList>
