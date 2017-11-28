@@ -1817,7 +1817,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer maxScale="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" minScale="1e+8" autoRefreshTime="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" readOnly="0" geometry="Point" simplifyLocal="1" type="vector" simplifyDrawingHints="1" simplifyMaxScale="1">
       <id>qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175</id>
-      <datasource>./qtibia.gpkg|layername=conducta_functie</datasource>
+      <datasource>./qtibia.gpkg|layername=subscribers</datasource>
       <keywordList>
         <value></value>
       </keywordList>
