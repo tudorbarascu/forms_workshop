@@ -876,7 +876,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer maxScale="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" type="vector" readOnly="0" geometry="No geometry" autoRefreshTime="0" minScale="1e+8">
       <id>qtibia_locatie_tip_930ff6fc_9ba0_4869_94f3_ab6cab1c73ca</id>
-      <datasource>./qtibia.gpkg|layerid=5</datasource>
+      <datasource>./qtibia.gpkg|layername=conducta_functie</datasource>
       <keywordList>
         <value></value>
       </keywordList>
