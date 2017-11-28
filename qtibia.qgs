@@ -825,7 +825,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>401222</ymax>
       </extent>
       <id>qtibia_limite_a7398509_c507_42f4_8bfd_e2cd1fe86d79</id>
-      <datasource>./qtibia.gpkg|layerid=1</datasource>
+      <datasource>./qtibia.gpkg|layername=limite</datasource>
       <keywordList>
         <value></value>
       </keywordList>
