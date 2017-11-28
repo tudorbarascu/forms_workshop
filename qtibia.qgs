@@ -26,7 +26,7 @@
       <layer-tree-layer providerKey="ogr" checked="Qt::Checked" id="qtibia_conducta_functie_400d525a_4f73_4aba_afa5_6737097725b1" source="./qtibia.gpkg|layername=conducta_functie" name="conductă_funcție" expanded="1">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="ogr" checked="Qt::Checked" id="qtibia_locatie_tip_930ff6fc_9ba0_4869_94f3_ab6cab1c73ca" source="./qtibia.gpkg|layerid=5" name="tip_construcție" expanded="1">
+      <layer-tree-layer providerKey="ogr" checked="Qt::Checked" id="id_functie_conducta" source="./qtibia.gpkg|layerid=5" name="tip_construcție" expanded="1">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer providerKey="ogr" checked="Qt::Checked" id="qtibia_pipe_material_3913202d_18e3_47d3_94db_42a9a396593a" source="./qtibia.gpkg|layerid=4" name="conductă_material" expanded="1">
@@ -51,7 +51,7 @@
     <custom-order enabled="0">
       <item>qtibia_constructii_41535df4_1dcd_4fc1_88c8_011c7ebbe973</item>
       <item>qtibia_limite_a7398509_c507_42f4_8bfd_e2cd1fe86d79</item>
-      <item>qtibia_locatie_tip_930ff6fc_9ba0_4869_94f3_ab6cab1c73ca</item>
+      <item>id_functie_conducta</item>
       <item>qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175</item>
       <item>Ortofoto2015201710192309440601176636576</item>
       <item>qtibia_conducta_functie_400d525a_4f73_4aba_afa5_6737097725b1</item>
@@ -122,7 +122,7 @@
       </legendlayer>
       <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="tip_construcție">
         <filegroup open="true" hidden="false">
-          <legendlayerfile layerid="qtibia_locatie_tip_930ff6fc_9ba0_4869_94f3_ab6cab1c73ca" isInOverview="0" visible="1"/>
+          <legendlayerfile layerid="id_functie_conducta" isInOverview="0" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="conductă_material">
@@ -595,7 +595,7 @@
                 <Option type="bool" value="false" name="AllowNull"/>
                 <Option type="QString" value="" name="FilterExpression"/>
                 <Option type="QString" value="id" name="Key"/>
-                <Option type="QString" value="qtibia_locatie_tip_930ff6fc_9ba0_4869_94f3_ab6cab1c73ca" name="Layer"/>
+                <Option type="QString" value="id_functie_conducta" name="Layer"/>
                 <Option type="bool" value="false" name="OrderByValue"/>
                 <Option type="bool" value="false" name="UseCompleter"/>
                 <Option type="QString" value="valoare" name="Value"/>
@@ -875,7 +875,7 @@ def my_form_open(dialog, layer, feature):
       <mapTip></mapTip>
     </maplayer>
     <maplayer maxScale="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" type="vector" readOnly="0" geometry="No geometry" autoRefreshTime="0" minScale="1e+8">
-      <id>qtibia_locatie_tip_930ff6fc_9ba0_4869_94f3_ab6cab1c73ca</id>
+      <id>id_functie_conducta</id>
       <datasource>./qtibia.gpkg|layername=conducta_functie</datasource>
       <keywordList>
         <value></value>
@@ -1896,7 +1896,7 @@ def my_form_open(dialog, layer, feature):
   <layerorder>
     <layer id="qtibia_constructii_41535df4_1dcd_4fc1_88c8_011c7ebbe973"/>
     <layer id="qtibia_limite_a7398509_c507_42f4_8bfd_e2cd1fe86d79"/>
-    <layer id="qtibia_locatie_tip_930ff6fc_9ba0_4869_94f3_ab6cab1c73ca"/>
+    <layer id="id_functie_conducta"/>
     <layer id="qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175"/>
     <layer id="Ortofoto2015201710192309440601176636576"/>
     <layer id="qtibia_conducta_functie_400d525a_4f73_4aba_afa5_6737097725b1"/>
