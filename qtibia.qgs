@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="2.99.0-Master">
+<qgis version="2.99.0-Master" projectname="">
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
@@ -18,34 +18,34 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-group checked="Qt::Checked" name="Dicționare" expanded="1">
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="Dicționare">
       <customproperties/>
-      <layer-tree-layer providerKey="ogr" checked="Qt::Checked" id="qtibia_stare_functionala_cdffbeb4_a517_4863_b488_16337aca06ef" source="./qtibia.gpkg|layername=stare_functionala" name="stare_funcțională" expanded="1">
+      <layer-tree-layer providerKey="ogr" expanded="1" checked="Qt::Checked" id="qtibia_stare_functionala_cdffbeb4_a517_4863_b488_16337aca06ef" source="./qtibia.gpkg|layername=stare_functionala" name="stare_funcțională">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="ogr" checked="Qt::Checked" id="qtibia_conducta_functie_400d525a_4f73_4aba_afa5_6737097725b1" source="./qtibia.gpkg|layername=conducta_functie" name="conductă_funcție" expanded="1">
+      <layer-tree-layer providerKey="ogr" expanded="1" checked="Qt::Checked" id="qtibia_conducta_functie_400d525a_4f73_4aba_afa5_6737097725b1" source="./qtibia.gpkg|layername=conducta_functie" name="conductă_funcție">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="ogr" checked="Qt::Checked" id="id_functie_conducta" source="./qtibia.gpkg|layerid=5" name="tip_construcție" expanded="1">
+      <layer-tree-layer providerKey="ogr" expanded="1" checked="Qt::Checked" id="id_functie_conducta" source="./qtibia.gpkg|layername=conducta_functie" name="tip_construcție">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="ogr" checked="Qt::Checked" id="qtibia_pipe_material_3913202d_18e3_47d3_94db_42a9a396593a" source="./qtibia.gpkg|layerid=4" name="conductă_material" expanded="1">
+      <layer-tree-layer providerKey="ogr" expanded="1" checked="Qt::Checked" id="qtibia_pipe_material_3913202d_18e3_47d3_94db_42a9a396593a" source="./qtibia.gpkg|layername=pipe_material" name="conductă_material">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer providerKey="ogr" checked="Qt::Checked" id="qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175" source="./qtibia.gpkg|layername=subscribers" name="consumator" expanded="1">
+    <layer-tree-layer providerKey="ogr" expanded="1" checked="Qt::Checked" id="qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175" source="./qtibia.gpkg|layername=subscribers" name="consumator">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" checked="Qt::Checked" id="qtibia_pipe_6b86622d_df6b_4e07_a6b5_fc5aeb3d9340" source="./qtibia.gpkg|layername=conducte" name="conducte_branșamente" expanded="1">
+    <layer-tree-layer providerKey="ogr" expanded="1" checked="Qt::Checked" id="qtibia_pipe_6b86622d_df6b_4e07_a6b5_fc5aeb3d9340" source="./qtibia.gpkg|layername=conducte" name="conducte_branșamente">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" checked="Qt::Checked" id="qtibia_constructii_41535df4_1dcd_4fc1_88c8_011c7ebbe973" source="./qtibia.gpkg|layername=constructii" name="construcții" expanded="1">
+    <layer-tree-layer providerKey="ogr" expanded="1" checked="Qt::Checked" id="qtibia_constructii_41535df4_1dcd_4fc1_88c8_011c7ebbe973" source="./qtibia.gpkg|layername=constructii" name="construcții">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" checked="Qt::Checked" id="qtibia_limite_a7398509_c507_42f4_8bfd_e2cd1fe86d79" source="./qtibia.gpkg|layername=limite" name="limite" expanded="1">
+    <layer-tree-layer providerKey="ogr" expanded="1" checked="Qt::Checked" id="qtibia_limite_a7398509_c507_42f4_8bfd_e2cd1fe86d79" source="./qtibia.gpkg|layername=limite" name="limite">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="wms" checked="Qt::Unchecked" id="Ortofoto2015201710192309440601176636576" source="contextualWMSLegend=0&amp;crs=EPSG:3844&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=of-2015-wmts&amp;styles=default&amp;tileMatrixSet=96dpi_3844_500_grid&amp;url=https://gis.apavil.ro/qtibia/ortofoto/wmts/1.0.0/WMTSCapabilities.xml" name="Ortofoto2015" expanded="0">
+    <layer-tree-layer providerKey="wms" expanded="0" checked="Qt::Unchecked" id="Ortofoto2015201710192309440601176636576" source="contextualWMSLegend=0&amp;crs=EPSG:3844&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=of-2015-wmts&amp;styles=default&amp;tileMatrixSet=96dpi_3844_500_grid&amp;url=https://gis.apavil.ro/qtibia/ortofoto/wmts/1.0.0/WMTSCapabilities.xml" name="Ortofoto2015">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -60,26 +60,26 @@
       <item>qtibia_stare_functionala_cdffbeb4_a517_4863_b488_16337aca06ef</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings enabled="1" tolerance="30" mode="2" type="2" intersection-snapping="0" unit="1">
+  <snapping-settings type="2" intersection-snapping="0" enabled="1" mode="2" tolerance="30" unit="1">
     <individual-layer-settings>
-      <layer-setting enabled="1" tolerance="30" id="qtibia_constructii_41535df4_1dcd_4fc1_88c8_011c7ebbe973" type="2" units="1"/>
-      <layer-setting enabled="1" tolerance="30" id="qtibia_limite_a7398509_c507_42f4_8bfd_e2cd1fe86d79" type="2" units="1"/>
-      <layer-setting enabled="1" tolerance="30" id="qtibia_pipe_6b86622d_df6b_4e07_a6b5_fc5aeb3d9340" type="2" units="1"/>
-      <layer-setting enabled="1" tolerance="30" id="qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175" type="2" units="1"/>
+      <layer-setting type="2" units="1" enabled="1" id="qtibia_constructii_41535df4_1dcd_4fc1_88c8_011c7ebbe973" tolerance="30"/>
+      <layer-setting type="2" units="1" enabled="1" id="qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175" tolerance="30"/>
+      <layer-setting type="2" units="1" enabled="1" id="qtibia_limite_a7398509_c507_42f4_8bfd_e2cd1fe86d79" tolerance="30"/>
+      <layer-setting type="2" units="1" enabled="1" id="qtibia_pipe_6b86622d_df6b_4e07_a6b5_fc5aeb3d9340" tolerance="30"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations>
-    <relation strength="Association" id="relation_pipe_material" referencedLayer="qtibia_pipe_material_3913202d_18e3_47d3_94db_42a9a396593a" referencingLayer="qtibia_pipe_6b86622d_df6b_4e07_a6b5_fc5aeb3d9340" name="relație_conductă_material">
+    <relation strength="Association" id="relation_pipe_material" referencedLayer="qtibia_pipe_material_3913202d_18e3_47d3_94db_42a9a396593a" name="relație_conductă_material" referencingLayer="qtibia_pipe_6b86622d_df6b_4e07_a6b5_fc5aeb3d9340">
       <fieldRef referencedField="id" referencingField="fk_material"/>
     </relation>
   </relations>
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>450056.22582370816962793</xmin>
-      <ymin>400350.58082597109023482</ymin>
-      <xmax>450870.88577688537770882</xmax>
-      <ymax>400808.19845399039331824</ymax>
+      <xmin>450171.28001497307559475</xmin>
+      <ymin>400513.80380694905761629</ymin>
+      <xmax>450578.60999156156321988</xmax>
+      <ymax>400742.612620958709158</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -96,83 +96,71 @@
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destDatumTransform="-1" srcAuthId="EPSG:3844" layerid="Ortofoto2015201710192309440601176636576" destAuthId="EPSG:3844" srcDatumTransform="-1"/>
-      <layer_coordinate_transform destDatumTransform="-1" srcAuthId="EPSG:4326" layerid="qtibia_constructie_tip_ef5cc136_34fc_4e54_a04d_82318a7324c0" destAuthId="EPSG:3844" srcDatumTransform="-1"/>
-      <layer_coordinate_transform destDatumTransform="-1" srcAuthId="EPSG:3844" layerid="qtibia_constructii_41535df4_1dcd_4fc1_88c8_011c7ebbe973" destAuthId="EPSG:3844" srcDatumTransform="-1"/>
-      <layer_coordinate_transform destDatumTransform="-1" srcAuthId="EPSG:3844" layerid="qtibia_pipe_6b86622d_df6b_4e07_a6b5_fc5aeb3d9340" destAuthId="EPSG:3844" srcDatumTransform="-1"/>
-      <layer_coordinate_transform destDatumTransform="-1" srcAuthId="EPSG:4326" layerid="qtibia_pipe_material_7c212f3d_0cc1_490f_aaf0_64d382ce532a" destAuthId="EPSG:3844" srcDatumTransform="-1"/>
-      <layer_coordinate_transform destDatumTransform="-1" srcAuthId="EPSG:3844" layerid="qtibia_limite_c57430de_a4e4_4ac9_8abc_bc6c5443c942" destAuthId="EPSG:3844" srcDatumTransform="-1"/>
-      <layer_coordinate_transform destDatumTransform="-1" srcAuthId="EPSG:3844" layerid="qtibia_limite_a7398509_c507_42f4_8bfd_e2cd1fe86d79" destAuthId="EPSG:3844" srcDatumTransform="-1"/>
-      <layer_coordinate_transform destDatumTransform="-1" srcAuthId="EPSG:3844" layerid="qtibia_pipe_03d07cf2_1709_4c6c_9667_76a3f7a7100c" destAuthId="EPSG:3844" srcDatumTransform="-1"/>
-      <layer_coordinate_transform destDatumTransform="-1" srcAuthId="EPSG:3844" layerid="qtibia_stare_functionala_59ac2b30_67bf_4132_b20b_7ee9e550aa86" destAuthId="EPSG:3844" srcDatumTransform="-1"/>
-      <layer_coordinate_transform destDatumTransform="-1" srcAuthId="EPSG:3844" layerid="qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175" destAuthId="EPSG:3844" srcDatumTransform="-1"/>
+      <layer_coordinate_transform destDatumTransform="-1" srcDatumTransform="-1" layerid="qtibia_pipe_material_7c212f3d_0cc1_490f_aaf0_64d382ce532a" destAuthId="EPSG:3844" srcAuthId="EPSG:4326"/>
+      <layer_coordinate_transform destDatumTransform="-1" srcDatumTransform="-1" layerid="qtibia_limite_c57430de_a4e4_4ac9_8abc_bc6c5443c942" destAuthId="EPSG:3844" srcAuthId="EPSG:3844"/>
+      <layer_coordinate_transform destDatumTransform="-1" srcDatumTransform="-1" layerid="qtibia_constructii_41535df4_1dcd_4fc1_88c8_011c7ebbe973" destAuthId="EPSG:3844" srcAuthId="EPSG:3844"/>
+      <layer_coordinate_transform destDatumTransform="-1" srcDatumTransform="-1" layerid="qtibia_constructie_tip_ef5cc136_34fc_4e54_a04d_82318a7324c0" destAuthId="EPSG:3844" srcAuthId="EPSG:4326"/>
+      <layer_coordinate_transform destDatumTransform="-1" srcDatumTransform="-1" layerid="qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175" destAuthId="EPSG:3844" srcAuthId="EPSG:3844"/>
+      <layer_coordinate_transform destDatumTransform="-1" srcDatumTransform="-1" layerid="qtibia_pipe_03d07cf2_1709_4c6c_9667_76a3f7a7100c" destAuthId="EPSG:3844" srcAuthId="EPSG:3844"/>
+      <layer_coordinate_transform destDatumTransform="-1" srcDatumTransform="-1" layerid="Ortofoto2015201710192309440601176636576" destAuthId="EPSG:3844" srcAuthId="EPSG:3844"/>
+      <layer_coordinate_transform destDatumTransform="-1" srcDatumTransform="-1" layerid="qtibia_pipe_6b86622d_df6b_4e07_a6b5_fc5aeb3d9340" destAuthId="EPSG:3844" srcAuthId="EPSG:3844"/>
+      <layer_coordinate_transform destDatumTransform="-1" srcDatumTransform="-1" layerid="qtibia_limite_a7398509_c507_42f4_8bfd_e2cd1fe86d79" destAuthId="EPSG:3844" srcAuthId="EPSG:3844"/>
+      <layer_coordinate_transform destDatumTransform="-1" srcDatumTransform="-1" layerid="qtibia_stare_functionala_59ac2b30_67bf_4132_b20b_7ee9e550aa86" destAuthId="EPSG:3844" srcAuthId="EPSG:3844"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <legend updateDrawingOrder="true">
-    <legendgroup checked="Qt::Checked" open="true" name="Dicționare">
-      <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="stare_funcțională">
+    <legendgroup open="true" checked="Qt::Checked" name="Dicționare">
+      <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" name="stare_funcțională" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile layerid="qtibia_stare_functionala_cdffbeb4_a517_4863_b488_16337aca06ef" isInOverview="0" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="qtibia_stare_functionala_cdffbeb4_a517_4863_b488_16337aca06ef" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="conductă_funcție">
+      <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" name="conductă_funcție" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile layerid="qtibia_conducta_functie_400d525a_4f73_4aba_afa5_6737097725b1" isInOverview="0" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="qtibia_conducta_functie_400d525a_4f73_4aba_afa5_6737097725b1" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="tip_construcție">
+      <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" name="tip_construcție" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile layerid="id_functie_conducta" isInOverview="0" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="id_functie_conducta" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="conductă_material">
+      <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" name="conductă_material" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile layerid="qtibia_pipe_material_3913202d_18e3_47d3_94db_42a9a396593a" isInOverview="0" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="qtibia_pipe_material_3913202d_18e3_47d3_94db_42a9a396593a" visible="1"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="consumator">
+    <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" name="consumator" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175" isInOverview="0" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="conducte_branșamente">
+    <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" name="conducte_branșamente" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="qtibia_pipe_6b86622d_df6b_4e07_a6b5_fc5aeb3d9340" isInOverview="0" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="qtibia_pipe_6b86622d_df6b_4e07_a6b5_fc5aeb3d9340" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="construcții">
+    <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" name="construcții" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="qtibia_constructii_41535df4_1dcd_4fc1_88c8_011c7ebbe973" isInOverview="0" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="qtibia_constructii_41535df4_1dcd_4fc1_88c8_011c7ebbe973" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="limite">
+    <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" name="limite" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="qtibia_limite_a7398509_c507_42f4_8bfd_e2cd1fe86d79" isInOverview="0" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="qtibia_limite_a7398509_c507_42f4_8bfd_e2cd1fe86d79" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Unchecked" drawingOrder="-1" open="false" showFeatureCount="0" name="Ortofoto2015">
+    <legendlayer open="false" checked="Qt::Unchecked" drawingOrder="-1" name="Ortofoto2015" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile layerid="Ortofoto2015201710192309440601176636576" isInOverview="0" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="Ortofoto2015201710192309440601176636576" visible="0"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
-  <mapcanvas annotationsVisible="1" name="">
-    <units>unknown</units>
-    <extent>
-      <xmin>0</xmin>
-      <ymin>0</ymin>
-      <xmax>0</xmax>
-      <ymax>0</ymax>
-    </extent>
-    <rotation>0</rotation>
-    <rendermaptile>0</rendermaptile>
-    <layer_coordinate_transform_info/>
-  </mapcanvas>
   <projectlayers>
-    <maplayer maxScale="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" type="raster" autoRefreshTime="0" minScale="1e+8">
+    <maplayer autoRefreshEnabled="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" type="raster" autoRefreshTime="0" minScale="1e+8" maxScale="0" refreshOnNotifyMessage="">
       <extent>
         <xmin>414384.78943437547422945</xmin>
         <ymin>338847.36891328706406057</ymin>
@@ -222,7 +210,7 @@
         <links/>
       </resourceMetadata>
       <customproperties>
-        <property value="Undefined" key="identify/format"/>
+        <property key="identify/format" value="Undefined"/>
       </customproperties>
       <provider>wms</provider>
       <noData>
@@ -232,7 +220,7 @@
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer type="singlebandcolordata" band="1" opacity="1" alphaBand="-1">
+        <rasterrenderer type="singlebandcolordata" alphaBand="-1" band="1" opacity="1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -243,19 +231,19 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeRed="255" colorizeGreen="128" saturation="0" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128"/>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" colorizeStrength="100" colorizeRed="255"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" type="vector" readOnly="0" geometry="No geometry" autoRefreshTime="0" minScale="1e+8">
-      <id>qtibia_conducta_functie_400d525a_4f73_4aba_afa5_6737097725b1</id>
+    <maplayer autoRefreshEnabled="0" readOnly="0" refreshOnNotifyEnabled="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" type="vector" autoRefreshTime="0" minScale="1e+8" maxScale="0" refreshOnNotifyMessage="">
+      <id>id_functie_conducta</id>
       <datasource>./qtibia.gpkg|layername=conducta_functie</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>conductă_funcție</layername>
+      <layername>tip_construcție</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -280,20 +268,20 @@
         <crs>
           <spatialrefsys>
             <proj4></proj4>
-            <srsid>0</srsid>
+            <srsid>100113</srsid>
             <srid>0</srid>
-            <authid></authid>
-            <description></description>
+            <authid>USER:100113</authid>
+            <description> * Generated CRS ()</description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
         <links/>
       </resourceMetadata>
       <customproperties>
-        <property value="&quot;fid&quot;" key="dualview/previewExpressions"/>
+        <property key="dualview/previewExpressions" value="&quot;id&quot;"/>
       </customproperties>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
@@ -340,25 +328,151 @@
         <default expression="" field="value_ro" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" field="id" unique_strength="1" exp_strength="0" notnull_strength="1"/>
-        <constraint constraints="0" field="vl_active" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="value_ro" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="1" field="id" exp_strength="0" constraints="3" notnull_strength="1"/>
+        <constraint unique_strength="0" field="vl_active" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="value_ro" exp_strength="0" constraints="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="id" desc="" exp=""/>
-        <constraint field="vl_active" desc="" exp=""/>
-        <constraint field="value_ro" desc="" exp=""/>
+        <constraint field="id" exp="" desc=""/>
+        <constraint field="vl_active" exp="" desc=""/>
+        <constraint field="value_ro" exp="" desc=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns>
-          <column width="-1" type="field" hidden="0" name="fid"/>
-          <column width="-1" type="field" hidden="0" name="id"/>
-          <column width="-1" type="field" hidden="0" name="vl_active"/>
-          <column width="-1" type="field" hidden="0" name="value_ro"/>
-          <column width="-1" type="actions" hidden="1"/>
+          <column type="field" width="-1" name="id" hidden="0"/>
+          <column type="field" width="-1" name="valoare" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>"id"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" readOnly="0" refreshOnNotifyEnabled="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" type="vector" autoRefreshTime="0" minScale="1e+8" maxScale="0" refreshOnNotifyMessage="">
+      <id>qtibia_conducta_functie_400d525a_4f73_4aba_afa5_6737097725b1</id>
+      <datasource>./qtibia.gpkg|layername=conducta_functie</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>conductă_funcție</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>100110</srsid>
+            <srid>0</srid>
+            <authid>USER:100110</authid>
+            <description> * Generated CRS ()</description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;fid&quot;"/>
+      </customproperties>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vl_active">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="value_ro">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="id" index="0" name=""/>
+        <alias field="vl_active" index="1" name=""/>
+        <alias field="value_ro" index="2" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="vl_active" applyOnUpdate="0"/>
+        <default expression="" field="value_ro" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="1" field="id" exp_strength="0" constraints="3" notnull_strength="1"/>
+        <constraint unique_strength="0" field="vl_active" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="value_ro" exp_strength="0" constraints="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="id" exp="" desc=""/>
+        <constraint field="vl_active" exp="" desc=""/>
+        <constraint field="value_ro" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column type="field" width="-1" name="fid" hidden="0"/>
+          <column type="field" width="-1" name="id" hidden="0"/>
+          <column type="field" width="-1" name="vl_active" hidden="0"/>
+          <column type="field" width="-1" name="value_ro" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
         </columns>
       </attributetableconfig>
       <editform></editform>
@@ -377,7 +491,7 @@
       <previewExpression>"fid"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer maxScale="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" type="vector" simplifyMaxScale="1" readOnly="0" geometry="Polygon" simplifyAlgorithm="0" autoRefreshTime="0" minScale="1e+8" simplifyLocal="1" simplifyDrawingHints="1">
+    <maplayer autoRefreshEnabled="0" readOnly="0" refreshOnNotifyEnabled="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0" type="vector" autoRefreshTime="0" simplifyLocal="1" minScale="1e+8" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyDrawingTol="1" maxScale="0" refreshOnNotifyMessage="" simplifyDrawingHints="1">
       <extent>
         <xmin>449590</xmin>
         <ymin>400131</ymin>
@@ -414,13 +528,13 @@
         <crs>
           <spatialrefsys>
             <proj4></proj4>
-            <srsid>0</srsid>
+            <srsid>100111</srsid>
             <srid>0</srid>
-            <authid></authid>
-            <description></description>
+            <authid>USER:100111</authid>
+            <description> * Generated CRS ()</description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -431,32 +545,32 @@
       <layerDependencies/>
       <dataDependencies/>
       <expressionfields>
-        <field expression="round($area, 1)" subType="0" typeName="double" precision="1" type="6" length="10" name="aria" comment=""/>
+        <field expression="round($area, 1)" comment="" type="6" precision="1" subType="0" typeName="double" name="aria" length="10"/>
       </expressionfields>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 symbollevels="0" type="RuleRenderer" forceraster="0" enableorderby="0">
+      <renderer-v2 type="RuleRenderer" enableorderby="0" forceraster="0" symbollevels="0">
         <rules key="{1302a435-951b-437a-8d11-930147237263}">
-          <rule filter="&quot;tip&quot; = 3" symbol="0" key="{ffee38f0-01ed-4ab8-a7f4-3a4fe2b149ee}" label="Construcții Apă"/>
-          <rule filter="&quot;tip&quot; = 4" symbol="1" key="{679ab902-6d25-4738-ada0-87b265853cf3}" label="Construcții "/>
-          <rule filter="ELSE" symbol="2" key="{2c8b4814-0e84-4d24-8a07-3cf3d5afcb51}" label="Toate Celelalte"/>
+          <rule filter="&quot;tip&quot; = 3" label="Construcții Apă" key="{ffee38f0-01ed-4ab8-a7f4-3a4fe2b149ee}" symbol="0"/>
+          <rule filter="&quot;tip&quot; = 4" label="Construcții " key="{679ab902-6d25-4738-ada0-87b265853cf3}" symbol="1"/>
+          <rule filter="ELSE" label="Toate Celelalte" key="{2c8b4814-0e84-4d24-8a07-3cf3d5afcb51}" symbol="2"/>
         </rules>
         <symbols>
-          <symbol type="fill" clip_to_extent="1" name="0" alpha="1">
-            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="166,249,249,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="0,0,0,255" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.26" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+          <symbol type="fill" alpha="1" name="0" clip_to_extent="1">
+            <layer pass="0" enabled="1" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="166,249,249,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -466,19 +580,19 @@
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol type="fill" clip_to_extent="1" name="1" alpha="1">
-            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="244,0,0,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="0,0,0,255" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.26" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="solid" k="style"/>
+          <symbol type="fill" alpha="1" name="1" clip_to_extent="1">
+            <layer pass="0" enabled="1" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="244,0,0,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -488,19 +602,19 @@
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol type="fill" clip_to_extent="1" name="2" alpha="1">
-            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="1,133,113,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="255,255,255,255" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.7" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="no" k="style"/>
+          <symbol type="fill" alpha="1" name="2" clip_to_extent="1">
+            <layer pass="0" enabled="1" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="1,133,113,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.7"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="no"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -509,18 +623,18 @@
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="1,133,113,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="137,137,137,255" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0.5" k="outline_width"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="no" k="style"/>
+            <layer pass="0" enabled="1" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="1,133,113,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="137,137,137,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.5"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="no"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -534,15 +648,15 @@
       </renderer-v2>
       <labeling type="simple">
         <settings>
-          <text-style fontFamily="Myriad Pro Black" fontLetterSpacing="0" fontSizeUnit="Point" isExpression="1" textColor="0,0,0,255" fontStrikeout="0" fieldName="aria || ' m2'" fontItalic="0" fontSize="10" textOpacity="1" multilineHeight="1" previewBkgrdColor="#ffffff" namedStyle="Bold" fontUnderline="0" blendMode="0" fontWeight="87" fontSizeMapUnitScale="3x:0,0,0,0,0,0" useSubstitutions="0" fontCapitals="0" fontWordSpacing="0">
-            <text-buffer bufferDraw="1" bufferSizeUnits="MM" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="1" bufferBlendMode="0" bufferJoinStyle="128" bufferColor="255,255,255,255" bufferOpacity="1" bufferSize="1"/>
-            <background shapeDraw="0" shapeBorderWidth="0" shapeSizeX="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeUnit="MM" shapeOffsetY="0" shapeRotationType="0" shapeSizeType="0" shapeJoinStyle="64" shapeFillColor="255,255,255,255" shapeBorderWidthUnit="MM" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetX="0" shapeRadiiUnit="MM" shapeSizeY="0" shapeRadiiY="0" shapeSVGFile="" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeType="0" shapeRadiiX="0" shapeOffsetUnit="MM" shapeBlendMode="0" shapeOpacity="1" shapeRotation="0"/>
-            <shadow shadowRadiusUnit="MM" shadowOpacity="0.7" shadowUnder="0" shadowOffsetAngle="135" shadowColor="0,0,0,255" shadowOffsetDist="1" shadowOffsetUnit="MM" shadowScale="100" shadowOffsetGlobal="1" shadowBlendMode="6" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowDraw="0" shadowRadiusAlphaOnly="0" shadowRadius="1.5" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0"/>
+          <text-style fontFamily="Myriad Pro Black" blendMode="0" textOpacity="1" previewBkgrdColor="#ffffff" fontStrikeout="0" fontLetterSpacing="0" fontItalic="0" useSubstitutions="0" fontUnderline="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" isExpression="1" fontSizeUnit="Point" fontCapitals="0" textColor="0,0,0,255" multilineHeight="1" namedStyle="Bold" fontWordSpacing="0" fontWeight="87" fieldName="aria || ' m2'" fontSize="10">
+            <text-buffer bufferDraw="1" bufferColor="255,255,255,255" bufferSize="1" bufferNoFill="1" bufferSizeUnits="MM" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferJoinStyle="128" bufferOpacity="1" bufferBlendMode="0"/>
+            <background shapeBorderWidthUnit="MM" shapeFillColor="255,255,255,255" shapeOffsetUnit="MM" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeOpacity="1" shapeDraw="0" shapeOffsetX="0" shapeSizeType="0" shapeSizeUnit="MM" shapeRadiiX="0" shapeRotation="0" shapeRadiiUnit="MM" shapeSizeY="0" shapeJoinStyle="64" shapeRadiiY="0" shapeBorderColor="128,128,128,255" shapeType="0" shapeSVGFile="" shapeBlendMode="0" shapeSizeX="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetY="0" shapeRotationType="0" shapeBorderWidth="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0"/>
+            <shadow shadowOffsetUnit="MM" shadowOpacity="0.7" shadowColor="0,0,0,255" shadowScale="100" shadowDraw="0" shadowOffsetAngle="135" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowBlendMode="6" shadowOffsetGlobal="1" shadowRadius="1.5" shadowRadiusUnit="MM" shadowRadiusAlphaOnly="0" shadowOffsetDist="1" shadowUnder="0"/>
             <substitutions/>
           </text-style>
-          <text-format addDirectionSymbol="0" formatNumbers="0" wrapChar="" placeDirectionSymbol="0" multilineAlign="4294967295" plussign="0" decimals="3" reverseDirectionSymbol="0" leftDirectionSymbol="&lt;" rightDirectionSymbol=">"/>
-          <placement placement="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" offsetType="0" yOffset="0" maxCurvedCharAngleOut="-25" repeatDistanceUnits="MM" centroidInside="1" distUnits="Pixel" xOffset="0" maxCurvedCharAngleIn="25" preserveRotation="1" priority="5" offsetUnits="MM" repeatDistance="0" dist="0" centroidWhole="0" distMapUnitScale="3x:0,0,0,0,0,0" fitInPolygonOnly="0" rotationAngle="0" quadOffset="4" placementFlags="10" labelOffsetMapUnitScale="3x:0,0,0,0,0,0"/>
-          <rendering scaleVisibility="1" fontLimitPixelSize="0" mergeLines="0" maxNumLabels="2000" upsidedownLabels="0" fontMaxPixelSize="10000" drawLabels="1" fontMinPixelSize="3" scaleMin="0" scaleMax="201" zIndex="0" limitNumLabels="0" minFeatureSize="0" obstacleFactor="1" labelPerPart="0" obstacle="1" displayAll="0" obstacleType="0"/>
+          <text-format reverseDirectionSymbol="0" leftDirectionSymbol="&lt;" rightDirectionSymbol=">" formatNumbers="0" multilineAlign="4294967295" wrapChar="" decimals="3" addDirectionSymbol="0" plussign="0" placeDirectionSymbol="0"/>
+          <placement maxCurvedCharAngleOut="-25" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" distUnits="Pixel" dist="0" centroidInside="1" centroidWhole="0" xOffset="0" offsetUnits="MM" preserveRotation="1" fitInPolygonOnly="0" distMapUnitScale="3x:0,0,0,0,0,0" rotationAngle="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" repeatDistance="0" quadOffset="4" priority="5" maxCurvedCharAngleIn="25" offsetType="0" repeatDistanceUnits="MM" placementFlags="10" placement="0" yOffset="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0"/>
+          <rendering obstacleFactor="1" mergeLines="0" limitNumLabels="0" obstacle="1" scaleVisibility="1" scaleMin="0" fontMinPixelSize="3" maxNumLabels="2000" obstacleType="0" labelPerPart="0" fontLimitPixelSize="0" minFeatureSize="0" scaleMax="201" upsidedownLabels="0" fontMaxPixelSize="10000" zIndex="0" displayAll="0" drawLabels="1"/>
           <dd_properties>
             <Option type="Map">
               <Option type="QString" value="" name="name"/>
@@ -553,21 +667,21 @@
         </settings>
       </labeling>
       <customproperties>
-        <property value="fid" key="dualview/previewExpressions"/>
-        <property value="0" key="embeddedWidgets/count"/>
+        <property key="dualview/previewExpressions" value="fid"/>
+        <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
-      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory sizeScale="3x:0,0,0,0,0,0" width="15" height="15" maxScaleDenominator="1e+8" sizeType="MM" minScaleDenominator="0" scaleDependency="Area" penColor="#000000" diagramOrientation="Up" opacity="1" barWidth="5" lineSizeType="MM" backgroundColor="#ffffff" scaleBasedVisibility="0" labelPlacementMethod="XHeight" penAlpha="255" backgroundAlpha="255" penWidth="0" minimumSize="0" rotationOffset="270" enabled="0" lineSizeScale="3x:0,0,0,0,0,0">
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory maxScaleDenominator="1e+8" height="15" opacity="1" rotationOffset="270" sizeScale="3x:0,0,0,0,0,0" penWidth="0" lineSizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" lineSizeType="MM" penAlpha="255" scaleBasedVisibility="0" penColor="#000000" scaleDependency="Area" diagramOrientation="Up" width="15" barWidth="5" minScaleDenominator="0" labelPlacementMethod="XHeight" backgroundColor="#ffffff" sizeType="MM" enabled="0" minimumSize="0">
           <fontProperties description="Sans Serif,9,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute color="#000000" field="" label=""/>
+          <attribute field="" label="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" placement="0" obstacle="0" dist="0" priority="0" linePlacementFlags="18" showAll="1">
+      <DiagramLayerSettings zIndex="0" placement="0" linePlacementFlags="18" obstacle="0" showAll="1" dist="0" priority="0">
         <properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -639,27 +753,27 @@
         <default expression="" field="aria" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" field="id" unique_strength="1" exp_strength="0" notnull_strength="1"/>
-        <constraint constraints="1" field="tip" unique_strength="0" exp_strength="0" notnull_strength="1"/>
-        <constraint constraints="0" field="descriere" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="aria" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="1" field="id" exp_strength="0" constraints="3" notnull_strength="1"/>
+        <constraint unique_strength="0" field="tip" exp_strength="0" constraints="1" notnull_strength="1"/>
+        <constraint unique_strength="0" field="descriere" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="aria" exp_strength="0" constraints="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="id" desc="" exp=""/>
-        <constraint field="tip" desc="" exp=""/>
-        <constraint field="descriere" desc="" exp=""/>
-        <constraint field="aria" desc="" exp=""/>
+        <constraint field="id" exp="" desc=""/>
+        <constraint field="tip" exp="" desc=""/>
+        <constraint field="descriere" exp="" desc=""/>
+        <constraint field="aria" exp="" desc=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="&quot;id&quot;" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="&quot;id&quot;">
         <columns>
-          <column width="-1" type="field" hidden="0" name="descriere"/>
-          <column width="141" type="field" hidden="0" name="tip"/>
-          <column width="-1" type="actions" hidden="1"/>
-          <column width="-1" type="field" hidden="0" name="aria"/>
-          <column width="-1" type="field" hidden="0" name="id"/>
+          <column type="field" width="-1" name="descriere" hidden="0"/>
+          <column type="field" width="141" name="tip" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+          <column type="field" width="-1" name="aria" hidden="0"/>
+          <column type="field" width="-1" name="id" hidden="0"/>
         </columns>
       </attributetableconfig>
       <editform></editform>
@@ -691,12 +805,12 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
       <expressionfields>
-        <field expression="round($area, 1)" subType="0" typeName="double" precision="1" type="6" length="10" name="aria" comment=""/>
+        <field expression="round($area, 1)" comment="" type="6" precision="1" subType="0" typeName="double" name="aria" length="10"/>
       </expressionfields>
       <previewExpression>fid</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer maxScale="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" type="vector" simplifyMaxScale="1" readOnly="0" geometry="Line" simplifyAlgorithm="0" autoRefreshTime="0" minScale="1e+8" simplifyLocal="1" simplifyDrawingHints="1">
+    <maplayer autoRefreshEnabled="0" readOnly="0" refreshOnNotifyEnabled="0" geometry="Line" hasScaleBasedVisibilityFlag="0" type="vector" autoRefreshTime="0" simplifyLocal="1" minScale="1e+8" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyDrawingTol="1" maxScale="0" refreshOnNotifyMessage="" simplifyDrawingHints="1">
       <extent>
         <xmin>449558</xmin>
         <ymin>400090</ymin>
@@ -733,13 +847,13 @@ def my_form_open(dialog, layer, feature):
         <crs>
           <spatialrefsys>
             <proj4></proj4>
-            <srsid>0</srsid>
+            <srsid>100112</srsid>
             <srid>0</srid>
-            <authid></authid>
-            <description></description>
+            <authid>USER:100112</authid>
+            <description> * Generated CRS ()</description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -754,25 +868,25 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+      <renderer-v2 type="singleSymbol" enableorderby="0" forceraster="0" symbollevels="0">
         <symbols>
-          <symbol type="line" clip_to_extent="1" name="0" alpha="1">
-            <layer enabled="1" locked="0" pass="0" class="SimpleLine">
-              <prop v="square" k="capstyle"/>
-              <prop v="5;2" k="customdash"/>
-              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
-              <prop v="MM" k="customdash_unit"/>
-              <prop v="0" k="draw_inside_polygon"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="85,85,85,255" k="line_color"/>
-              <prop v="solid" k="line_style"/>
-              <prop v="0.1" k="line_width"/>
-              <prop v="MM" k="line_width_unit"/>
-              <prop v="0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="0" k="use_custom_dash"/>
-              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+          <symbol type="line" alpha="1" name="0" clip_to_extent="1">
+            <layer pass="0" enabled="1" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="85,85,85,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.1"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -787,21 +901,21 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property value="&quot;id&quot;" key="dualview/previewExpressions"/>
-        <property value="0" key="embeddedWidgets/count"/>
+        <property key="dualview/previewExpressions" value="&quot;id&quot;"/>
+        <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
-      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory sizeScale="3x:0,0,0,0,0,0" width="15" height="15" maxScaleDenominator="1e+8" sizeType="MM" minScaleDenominator="0" scaleDependency="Area" penColor="#000000" diagramOrientation="Up" opacity="1" barWidth="5" lineSizeType="MM" backgroundColor="#ffffff" scaleBasedVisibility="0" labelPlacementMethod="XHeight" penAlpha="255" backgroundAlpha="255" penWidth="0" minimumSize="0" rotationOffset="270" enabled="0" lineSizeScale="3x:0,0,0,0,0,0">
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory maxScaleDenominator="1e+8" height="15" opacity="1" rotationOffset="270" sizeScale="3x:0,0,0,0,0,0" penWidth="0" lineSizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" lineSizeType="MM" penAlpha="255" scaleBasedVisibility="0" penColor="#000000" scaleDependency="Area" diagramOrientation="Up" width="15" barWidth="5" minScaleDenominator="0" labelPlacementMethod="XHeight" backgroundColor="#ffffff" sizeType="MM" enabled="0" minimumSize="0">
           <fontProperties description="Sans Serif,9,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute color="#000000" field="" label=""/>
+          <attribute field="" label="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" placement="2" obstacle="0" dist="0" priority="0" linePlacementFlags="18" showAll="1">
+      <DiagramLayerSettings zIndex="0" placement="2" linePlacementFlags="18" obstacle="0" showAll="1" dist="0" priority="0">
         <properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -828,18 +942,18 @@ def my_form_open(dialog, layer, feature):
         <default expression="" field="id" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" field="id" unique_strength="1" exp_strength="0" notnull_strength="1"/>
+        <constraint unique_strength="1" field="id" exp_strength="0" constraints="3" notnull_strength="1"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="id" desc="" exp=""/>
+        <constraint field="id" exp="" desc=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="&quot;id&quot;" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="&quot;id&quot;">
         <columns>
-          <column width="-1" type="field" hidden="0" name="id"/>
-          <column width="-1" type="actions" hidden="1"/>
+          <column type="field" width="-1" name="id" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
         </columns>
       </attributetableconfig>
       <editform></editform>
@@ -874,122 +988,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer maxScale="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" type="vector" readOnly="0" geometry="No geometry" autoRefreshTime="0" minScale="1e+8">
-      <id>id_functie_conducta</id>
-      <datasource>./qtibia.gpkg|layername=conducta_functie</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>tip_construcție</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type></type>
-        <title></title>
-        <abstract></abstract>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-        <links/>
-      </resourceMetadata>
-      <customproperties>
-        <property value="&quot;id&quot;" key="dualview/previewExpressions"/>
-      </customproperties>
-      <provider encoding="UTF-8">ogr</provider>
-      <vectorjoins/>
-      <layerDependencies/>
-      <dataDependencies/>
-      <expressionfields/>
-      <map-layer-style-manager current="default">
-        <map-layer-style name="default"/>
-      </map-layer-style-manager>
-      <auxiliaryLayer/>
-      <fieldConfiguration>
-        <field name="id">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="valoare">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-      </fieldConfiguration>
-      <aliases>
-        <alias field="id" index="0" name=""/>
-        <alias field="valoare" index="1" name=""/>
-      </aliases>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <defaults>
-        <default expression="" field="id" applyOnUpdate="0"/>
-        <default expression="" field="valoare" applyOnUpdate="0"/>
-      </defaults>
-      <constraints>
-        <constraint constraints="3" field="id" unique_strength="1" exp_strength="0" notnull_strength="1"/>
-        <constraint constraints="0" field="valoare" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint field="id" desc="" exp=""/>
-        <constraint field="valoare" desc="" exp=""/>
-      </constraintExpressions>
-      <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
-      </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
-        <columns>
-          <column width="-1" type="field" hidden="0" name="id"/>
-          <column width="-1" type="field" hidden="0" name="valoare"/>
-          <column width="-1" type="actions" hidden="1"/>
-        </columns>
-      </attributetableconfig>
-      <editform></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <expressionfields/>
-      <previewExpression>"id"</previewExpression>
-      <mapTip></mapTip>
-    </maplayer>
-    <maplayer maxScale="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" type="vector" simplifyMaxScale="1" readOnly="0" geometry="Line" simplifyAlgorithm="0" autoRefreshTime="0" minScale="1e+8" simplifyLocal="1" simplifyDrawingHints="0">
+    <maplayer autoRefreshEnabled="0" readOnly="0" refreshOnNotifyEnabled="0" geometry="Line" hasScaleBasedVisibilityFlag="0" type="vector" autoRefreshTime="0" simplifyLocal="1" minScale="1e+8" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyDrawingTol="1" maxScale="0" refreshOnNotifyMessage="" simplifyDrawingHints="0">
       <extent>
         <xmin>450271</xmin>
         <ymin>400520</ymin>
@@ -1026,13 +1025,13 @@ def my_form_open(dialog, layer, feature):
         <crs>
           <spatialrefsys>
             <proj4></proj4>
-            <srsid>0</srsid>
+            <srsid>100114</srsid>
             <srid>0</srid>
-            <authid></authid>
-            <description></description>
+            <authid>USER:100114</authid>
+            <description> * Generated CRS ()</description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -1047,54 +1046,193 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+      <renderer-v2 type="RuleRenderer" enableorderby="0" forceraster="0" symbollevels="0">
+        <rules key="{3c236297-8a30-4c40-bbb6-1da841d5f37b}">
+          <rule filter="fk_function not in (4106,4108)" label="Conducte" key="{3ca1a330-fa51-4203-a6fe-a9b98d909fab}" symbol="0"/>
+          <rule filter="fk_function in (4104)" label="Conducte funcţ. nec" key="{fab9fa06-c559-4864-a7e9-b314bd1561e4}" symbol="1"/>
+          <rule filter="fk_function in (4107)" label="Bypass" key="{25fca44d-31f0-4d46-b4fb-fdc48a816c1f}" symbol="2"/>
+          <rule filter="fk_function in (4106,4108)" label="Branşamente" key="{74e1b27e-5f78-4e95-86eb-318fbd7c3570}" symbol="3"/>
+          <rule filter="fk_function in (4103,4110,4112)" label="Golire/Captare/Aerisire" key="{360b3afb-9672-407b-bdca-f72c648dd00a}" symbol="4"/>
+        </rules>
         <symbols>
-          <symbol type="line" clip_to_extent="1" name="0" alpha="1">
-            <layer enabled="1" locked="0" pass="0" class="SimpleLine">
-              <prop v="square" k="capstyle"/>
-              <prop v="5;2" k="customdash"/>
-              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
-              <prop v="MM" k="customdash_unit"/>
-              <prop v="0" k="draw_inside_polygon"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="69,75,239,255" k="line_color"/>
-              <prop v="solid" k="line_style"/>
-              <prop v="0.26" k="line_width"/>
-              <prop v="MM" k="line_width_unit"/>
-              <prop v="0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="0" k="use_custom_dash"/>
-              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+          <symbol type="line" alpha="1" name="0" clip_to_extent="1">
+            <layer pass="0" enabled="1" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="0,140,255,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
-                  <Option name="properties"/>
+                  <Option type="Map" name="properties">
+                    <Option type="Map" name="outlineWidth">
+                      <Option type="bool" value="true" name="active"/>
+                      <Option type="QString" value="CASE WHEN &quot;conductă_material_a_diameter&quot; IS NOT NULL&#xa;THEN toreal(COALESCE(&quot;conductă_material_a_diameter_external&quot;,&quot;conductă_material_a_diameter_nominal&quot;)) / 900 + .2&#xa;ELSE .2&#xa;END" name="expression"/>
+                      <Option type="int" value="3" name="type"/>
+                    </Option>
+                  </Option>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="line" alpha="1" name="1" clip_to_extent="1">
+            <layer pass="0" enabled="1" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="2;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="68,0,255,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="1"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option type="Map" name="properties">
+                    <Option type="Map" name="outlineWidth">
+                      <Option type="bool" value="true" name="active"/>
+                      <Option type="QString" value="CASE WHEN &quot;conductă_material_a_diameter&quot; IS NOT NULL&#xa;THEN toreal(COALESCE(&quot;conductă_material_a_diameter_external&quot;,&quot;conductă_material_a_diameter_nominal&quot;)) / 900 + .2&#xa;ELSE .2&#xa;END" name="expression"/>
+                      <Option type="int" value="3" name="type"/>
+                    </Option>
+                  </Option>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="line" alpha="1" name="2" clip_to_extent="1">
+            <layer pass="0" enabled="1" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="4;1"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="0,157,255,255"/>
+              <prop k="line_style" v="dash"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="1"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option type="Map" name="properties">
+                    <Option type="Map" name="outlineWidth">
+                      <Option type="bool" value="true" name="active"/>
+                      <Option type="QString" value="CASE WHEN &quot;conductă_material_a_diameter&quot; IS NOT NULL&#xa;THEN toreal(COALESCE(&quot;conductă_material_a_diameter_external&quot;,&quot;conductă_material_a_diameter_nominal&quot;)) / 900 + .2&#xa;ELSE .2&#xa;END" name="expression"/>
+                      <Option type="int" value="3" name="type"/>
+                    </Option>
+                  </Option>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="line" alpha="1" name="3" clip_to_extent="1">
+            <layer pass="0" enabled="1" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="2;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="0,157,255,255"/>
+              <prop k="line_style" v="dash"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="1"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option type="Map" name="properties">
+                    <Option type="Map" name="outlineWidth">
+                      <Option type="bool" value="true" name="active"/>
+                      <Option type="QString" value="CASE WHEN &quot;conductă_material_a_diameter&quot; IS NOT NULL&#xa;THEN toreal(COALESCE(&quot;conductă_material_a_diameter_external&quot;,&quot;conductă_material_a_diameter_nominal&quot;)) / 900 + .2&#xa;ELSE .2&#xa;END" name="expression"/>
+                      <Option type="int" value="3" name="type"/>
+                    </Option>
+                  </Option>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol type="line" alpha="1" name="4" clip_to_extent="1">
+            <layer pass="0" enabled="1" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="2;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="0,140,255,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="1"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="1"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option type="Map" name="properties">
+                    <Option type="Map" name="outlineWidth">
+                      <Option type="bool" value="true" name="active"/>
+                      <Option type="QString" value="CASE WHEN &quot;conductă_material_a_diameter&quot; IS NOT NULL&#xa;THEN toreal(COALESCE(&quot;conductă_material_a_diameter_external&quot;,&quot;conductă_material_a_diameter_nominal&quot;)) / 900 + .2&#xa;ELSE .2&#xa;END" name="expression"/>
+                      <Option type="int" value="3" name="type"/>
+                    </Option>
+                  </Option>
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
-        <rotation/>
-        <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property value="id" key="dualview/previewExpressions"/>
-        <property value="0" key="embeddedWidgets/count"/>
+        <property key="dualview/previewExpressions" value="id"/>
+        <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
-      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory sizeScale="3x:0,0,0,0,0,0" width="15" height="15" maxScaleDenominator="1e+8" sizeType="MM" minScaleDenominator="0" scaleDependency="Area" penColor="#000000" diagramOrientation="Up" opacity="1" barWidth="5" lineSizeType="MM" backgroundColor="#ffffff" scaleBasedVisibility="0" labelPlacementMethod="XHeight" penAlpha="255" backgroundAlpha="255" penWidth="0" minimumSize="0" rotationOffset="270" enabled="0" lineSizeScale="3x:0,0,0,0,0,0">
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory maxScaleDenominator="1e+8" height="15" opacity="1" rotationOffset="270" sizeScale="3x:0,0,0,0,0,0" penWidth="0" lineSizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" lineSizeType="MM" penAlpha="255" scaleBasedVisibility="0" penColor="#000000" scaleDependency="Area" diagramOrientation="Up" width="15" barWidth="5" minScaleDenominator="0" labelPlacementMethod="XHeight" backgroundColor="#ffffff" sizeType="MM" enabled="0" minimumSize="0">
           <fontProperties description="Sans Serif,9,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute color="#000000" field="" label=""/>
+          <attribute field="" label="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings zIndex="0" placement="2" obstacle="0" dist="0" priority="0" linePlacementFlags="18" showAll="1">
+      <DiagramLayerSettings zIndex="0" placement="2" linePlacementFlags="18" obstacle="0" showAll="1" dist="0" priority="0">
         <properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -1175,7 +1313,7 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field name="observatii">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
@@ -1201,32 +1339,33 @@ def my_form_open(dialog, layer, feature):
         <default expression="" field="observatii" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" field="id" unique_strength="1" exp_strength="0" notnull_strength="1"/>
-        <constraint constraints="4" field="year" unique_strength="0" exp_strength="1" notnull_strength="0"/>
-        <constraint constraints="1" field="fk_status" unique_strength="0" exp_strength="0" notnull_strength="1"/>
-        <constraint constraints="1" field="fk_function" unique_strength="0" exp_strength="0" notnull_strength="1"/>
-        <constraint constraints="1" field="fk_material" unique_strength="0" exp_strength="0" notnull_strength="1"/>
-        <constraint constraints="0" field="observatii" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="1" field="id" exp_strength="0" constraints="3" notnull_strength="1"/>
+        <constraint unique_strength="0" field="year" exp_strength="1" constraints="4" notnull_strength="0"/>
+        <constraint unique_strength="0" field="fk_status" exp_strength="0" constraints="1" notnull_strength="1"/>
+        <constraint unique_strength="0" field="fk_function" exp_strength="0" constraints="1" notnull_strength="1"/>
+        <constraint unique_strength="0" field="fk_material" exp_strength="0" constraints="1" notnull_strength="1"/>
+        <constraint unique_strength="0" field="observatii" exp_strength="0" constraints="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="id" desc="" exp=""/>
-        <constraint field="year" desc="min. 1900, max. anul curent; conductele din proiecte pot avea max. anul curent + 10 ani" exp="-- &quot;year&quot; is NULL OR &quot;year&quot; &lt;=  now() AND &quot;year&quot; >= 1900&#xa;&quot;year&quot; IS NULL OR (&quot;year&quot; > 1900 AND &quot;year&quot; &lt;= now()) OR (&quot;fk_status&quot; = 1306 AND &quot;year&quot; - 10 &lt;= now())"/>
-        <constraint field="fk_status" desc="" exp=""/>
-        <constraint field="fk_function" desc="" exp=""/>
-        <constraint field="fk_material" desc="" exp=""/>
-        <constraint field="observatii" desc="" exp=""/>
+        <constraint field="id" exp="" desc=""/>
+        <constraint field="year" exp="-- &quot;year&quot; is NULL OR &quot;year&quot; &lt;=  now() AND &quot;year&quot; >= 1900&#xa;&quot;year&quot; IS NULL OR (&quot;year&quot; > 1900 AND &quot;year&quot; &lt;= now()) OR (&quot;fk_status&quot; = 1306 AND &quot;year&quot; - 10 &lt;= now())" desc="min. 1900, max. anul curent; conductele din proiecte pot avea max. anul curent + 10 ani"/>
+        <constraint field="fk_status" exp="" desc=""/>
+        <constraint field="fk_function" exp="" desc=""/>
+        <constraint field="fk_material" exp="" desc=""/>
+        <constraint field="observatii" exp="" desc=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns>
-          <column width="-1" type="field" hidden="0" name="id"/>
-          <column width="-1" type="field" hidden="0" name="year"/>
-          <column width="-1" type="field" hidden="0" name="fk_status"/>
-          <column width="-1" type="field" hidden="0" name="fk_function"/>
-          <column width="-1" type="field" hidden="0" name="fk_material"/>
-          <column width="-1" type="actions" hidden="1"/>
+          <column type="field" width="-1" name="id" hidden="0"/>
+          <column type="field" width="-1" name="year" hidden="0"/>
+          <column type="field" width="-1" name="fk_status" hidden="0"/>
+          <column type="field" width="-1" name="fk_function" hidden="0"/>
+          <column type="field" width="-1" name="fk_material" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+          <column type="field" width="-1" name="observatii" hidden="0"/>
         </columns>
       </attributetableconfig>
       <editform></editform>
@@ -1261,7 +1400,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer maxScale="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" type="vector" readOnly="0" geometry="No geometry" autoRefreshTime="0" minScale="1e+8">
+    <maplayer autoRefreshEnabled="0" readOnly="0" refreshOnNotifyEnabled="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" type="vector" autoRefreshTime="0" minScale="1e+8" maxScale="0" refreshOnNotifyMessage="">
       <id>qtibia_pipe_material_3913202d_18e3_47d3_94db_42a9a396593a</id>
       <datasource>./qtibia.gpkg|layername=pipe_material</datasource>
       <keywordList>
@@ -1292,21 +1431,21 @@ def my_form_open(dialog, layer, feature):
         <crs>
           <spatialrefsys>
             <proj4></proj4>
-            <srsid>0</srsid>
+            <srsid>100115</srsid>
             <srid>0</srid>
-            <authid></authid>
-            <description></description>
+            <authid>USER:100115</authid>
+            <description> * Generated CRS ()</description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
         <links/>
       </resourceMetadata>
       <customproperties>
-        <property value="&quot;id&quot;" key="dualview/previewExpressions"/>
-        <property value="0" key="embeddedWidgets/count"/>
+        <property key="dualview/previewExpressions" value="&quot;id&quot;"/>
+        <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -1445,56 +1584,56 @@ def my_form_open(dialog, layer, feature):
         <default expression="" field="sn" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" field="id" unique_strength="1" exp_strength="0" notnull_strength="1"/>
-        <constraint constraints="0" field="vl_active" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="short_ro" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="value_ro" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="_displayname_ro" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="diameter" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="diameter_nominal" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="diameter_internal" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="diameter_external" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="pressure_nominal" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="sdr" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="wall_thickness" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="sn" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="1" field="id" exp_strength="0" constraints="3" notnull_strength="1"/>
+        <constraint unique_strength="0" field="vl_active" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="short_ro" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="value_ro" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="_displayname_ro" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="diameter" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="diameter_nominal" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="diameter_internal" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="diameter_external" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="pressure_nominal" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="sdr" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="wall_thickness" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="sn" exp_strength="0" constraints="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="id" desc="" exp=""/>
-        <constraint field="vl_active" desc="" exp=""/>
-        <constraint field="short_ro" desc="" exp=""/>
-        <constraint field="value_ro" desc="" exp=""/>
-        <constraint field="_displayname_ro" desc="" exp=""/>
-        <constraint field="diameter" desc="" exp=""/>
-        <constraint field="diameter_nominal" desc="" exp=""/>
-        <constraint field="diameter_internal" desc="" exp=""/>
-        <constraint field="diameter_external" desc="" exp=""/>
-        <constraint field="pressure_nominal" desc="" exp=""/>
-        <constraint field="sdr" desc="" exp=""/>
-        <constraint field="wall_thickness" desc="" exp=""/>
-        <constraint field="sn" desc="" exp=""/>
+        <constraint field="id" exp="" desc=""/>
+        <constraint field="vl_active" exp="" desc=""/>
+        <constraint field="short_ro" exp="" desc=""/>
+        <constraint field="value_ro" exp="" desc=""/>
+        <constraint field="_displayname_ro" exp="" desc=""/>
+        <constraint field="diameter" exp="" desc=""/>
+        <constraint field="diameter_nominal" exp="" desc=""/>
+        <constraint field="diameter_internal" exp="" desc=""/>
+        <constraint field="diameter_external" exp="" desc=""/>
+        <constraint field="pressure_nominal" exp="" desc=""/>
+        <constraint field="sdr" exp="" desc=""/>
+        <constraint field="wall_thickness" exp="" desc=""/>
+        <constraint field="sn" exp="" desc=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns>
-          <column width="-1" type="field" hidden="0" name="id"/>
-          <column width="-1" type="field" hidden="0" name="vl_active"/>
-          <column width="-1" type="field" hidden="0" name="short_ro"/>
-          <column width="-1" type="field" hidden="0" name="value_ro"/>
-          <column width="-1" type="field" hidden="0" name="_displayname_fr"/>
-          <column width="-1" type="field" hidden="0" name="_displayname_en"/>
-          <column width="-1" type="field" hidden="0" name="_displayname_ro"/>
-          <column width="-1" type="field" hidden="0" name="diameter"/>
-          <column width="-1" type="field" hidden="0" name="diameter_nominal"/>
-          <column width="-1" type="field" hidden="0" name="diameter_internal"/>
-          <column width="-1" type="field" hidden="0" name="diameter_external"/>
-          <column width="-1" type="field" hidden="0" name="pressure_nominal"/>
-          <column width="-1" type="field" hidden="0" name="sdr"/>
-          <column width="-1" type="field" hidden="0" name="wall_thickness"/>
-          <column width="-1" type="field" hidden="0" name="sn"/>
-          <column width="-1" type="actions" hidden="1"/>
+          <column type="field" width="-1" name="id" hidden="0"/>
+          <column type="field" width="-1" name="vl_active" hidden="0"/>
+          <column type="field" width="-1" name="short_ro" hidden="0"/>
+          <column type="field" width="-1" name="value_ro" hidden="0"/>
+          <column type="field" width="-1" name="_displayname_fr" hidden="0"/>
+          <column type="field" width="-1" name="_displayname_en" hidden="0"/>
+          <column type="field" width="-1" name="_displayname_ro" hidden="0"/>
+          <column type="field" width="-1" name="diameter" hidden="0"/>
+          <column type="field" width="-1" name="diameter_nominal" hidden="0"/>
+          <column type="field" width="-1" name="diameter_internal" hidden="0"/>
+          <column type="field" width="-1" name="diameter_external" hidden="0"/>
+          <column type="field" width="-1" name="pressure_nominal" hidden="0"/>
+          <column type="field" width="-1" name="sdr" hidden="0"/>
+          <column type="field" width="-1" name="wall_thickness" hidden="0"/>
+          <column type="field" width="-1" name="sn" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
         </columns>
       </attributetableconfig>
       <editform></editform>
@@ -1533,7 +1672,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>_displayname_ro</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer maxScale="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" type="vector" readOnly="0" geometry="No geometry" autoRefreshTime="0" minScale="1e+8">
+    <maplayer autoRefreshEnabled="0" readOnly="0" refreshOnNotifyEnabled="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" type="vector" autoRefreshTime="0" minScale="1e+8" maxScale="0" refreshOnNotifyMessage="">
       <id>qtibia_stare_functionala_cdffbeb4_a517_4863_b488_16337aca06ef</id>
       <datasource>./qtibia.gpkg|layername=stare_functionala</datasource>
       <keywordList>
@@ -1564,21 +1703,21 @@ def my_form_open(dialog, layer, feature):
         <crs>
           <spatialrefsys>
             <proj4></proj4>
-            <srsid>0</srsid>
+            <srsid>100116</srsid>
             <srid>0</srid>
-            <authid></authid>
-            <description></description>
+            <authid>USER:100116</authid>
+            <description> * Generated CRS ()</description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
         <links/>
       </resourceMetadata>
       <customproperties>
-        <property value="&quot;id&quot;" key="dualview/previewExpressions"/>
-        <property value="0" key="embeddedWidgets/count"/>
+        <property key="dualview/previewExpressions" value="&quot;id&quot;"/>
+        <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -1648,27 +1787,27 @@ def my_form_open(dialog, layer, feature):
         <default expression="" field="active" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" field="id" unique_strength="1" exp_strength="0" notnull_strength="1"/>
-        <constraint constraints="0" field="value_ro" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="description_ro" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="active" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="1" field="id" exp_strength="0" constraints="3" notnull_strength="1"/>
+        <constraint unique_strength="0" field="value_ro" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="description_ro" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="active" exp_strength="0" constraints="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="id" desc="" exp=""/>
-        <constraint field="value_ro" desc="" exp=""/>
-        <constraint field="description_ro" desc="" exp=""/>
-        <constraint field="active" desc="" exp=""/>
+        <constraint field="id" exp="" desc=""/>
+        <constraint field="value_ro" exp="" desc=""/>
+        <constraint field="description_ro" exp="" desc=""/>
+        <constraint field="active" exp="" desc=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns>
-          <column width="-1" type="field" hidden="0" name="id"/>
-          <column width="-1" type="field" hidden="0" name="value_ro"/>
-          <column width="-1" type="field" hidden="0" name="description_ro"/>
-          <column width="-1" type="field" hidden="0" name="active"/>
-          <column width="-1" type="actions" hidden="1"/>
+          <column type="field" width="-1" name="id" hidden="0"/>
+          <column type="field" width="-1" name="value_ro" hidden="0"/>
+          <column type="field" width="-1" name="description_ro" hidden="0"/>
+          <column type="field" width="-1" name="active" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
         </columns>
       </attributetableconfig>
       <editform></editform>
@@ -1703,7 +1842,13 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer maxScale="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" type="vector" simplifyMaxScale="1" readOnly="0" geometry="Point" simplifyAlgorithm="0" autoRefreshTime="0" minScale="1e+8" simplifyLocal="1" simplifyDrawingHints="1">
+    <maplayer autoRefreshEnabled="0" readOnly="0" refreshOnNotifyEnabled="0" geometry="Point" hasScaleBasedVisibilityFlag="0" type="vector" autoRefreshTime="0" simplifyLocal="1" minScale="1e+8" simplifyMaxScale="1" simplifyAlgorithm="0" simplifyDrawingTol="1" maxScale="0" refreshOnNotifyMessage="" simplifyDrawingHints="1">
+      <extent>
+        <xmin>450340</xmin>
+        <ymin>400712</ymin>
+        <xmax>450340</xmax>
+        <ymax>400712</ymax>
+      </extent>
       <id>qtibia_subscribers_7e01e174_78d4_4c40_8176_c49809658175</id>
       <datasource>./qtibia.gpkg|layername=subscribers</datasource>
       <keywordList>
@@ -1734,13 +1879,13 @@ def my_form_open(dialog, layer, feature):
         <crs>
           <spatialrefsys>
             <proj4></proj4>
-            <srsid>0</srsid>
+            <srsid>100117</srsid>
             <srid>0</srid>
-            <authid></authid>
-            <description></description>
+            <authid>USER:100117</authid>
+            <description> * Generated CRS ()</description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -1755,28 +1900,28 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name="default"/>
       </map-layer-style-manager>
       <auxiliaryLayer/>
-      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+      <renderer-v2 type="singleSymbol" enableorderby="0" forceraster="0" symbollevels="0">
         <symbols>
-          <symbol type="marker" clip_to_extent="1" name="0" alpha="1">
-            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
-              <prop v="0" k="angle"/>
-              <prop v="198,204,150,255" k="color"/>
-              <prop v="1" k="horizontal_anchor_point"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="circle" k="name"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="0,0,0,255" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0" k="outline_width"/>
-              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="diameter" k="scale_method"/>
-              <prop v="2" k="size"/>
-              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-              <prop v="MM" k="size_unit"/>
-              <prop v="1" k="vertical_anchor_point"/>
+          <symbol type="marker" alpha="1" name="0" clip_to_extent="1">
+            <layer pass="0" enabled="1" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="198,204,150,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -1791,7 +1936,7 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property value="&quot;id&quot;" key="dualview/previewExpressions"/>
+        <property key="dualview/previewExpressions" value="&quot;id&quot;"/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
@@ -1850,30 +1995,30 @@ def my_form_open(dialog, layer, feature):
         <default expression="" field="date_last_index" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" field="id" unique_strength="1" exp_strength="0" notnull_strength="1"/>
-        <constraint constraints="0" field="name" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="fk_pipe" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="last_index" unique_strength="0" exp_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" field="date_last_index" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="1" field="id" exp_strength="0" constraints="3" notnull_strength="1"/>
+        <constraint unique_strength="0" field="name" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="fk_pipe" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="last_index" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="date_last_index" exp_strength="0" constraints="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="id" desc="" exp=""/>
-        <constraint field="name" desc="" exp=""/>
-        <constraint field="fk_pipe" desc="" exp=""/>
-        <constraint field="last_index" desc="" exp=""/>
-        <constraint field="date_last_index" desc="" exp=""/>
+        <constraint field="id" exp="" desc=""/>
+        <constraint field="name" exp="" desc=""/>
+        <constraint field="fk_pipe" exp="" desc=""/>
+        <constraint field="last_index" exp="" desc=""/>
+        <constraint field="date_last_index" exp="" desc=""/>
       </constraintExpressions>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns>
-          <column width="-1" type="field" hidden="0" name="id"/>
-          <column width="-1" type="field" hidden="0" name="name"/>
-          <column width="-1" type="field" hidden="0" name="fk_pipe"/>
-          <column width="-1" type="field" hidden="0" name="last_index"/>
-          <column width="-1" type="field" hidden="0" name="date_last_index"/>
-          <column width="-1" type="actions" hidden="1"/>
+          <column type="field" width="-1" name="id" hidden="0"/>
+          <column type="field" width="-1" name="name" hidden="0"/>
+          <column type="field" width="-1" name="fk_pipe" hidden="0"/>
+          <column type="field" width="-1" name="last_index" hidden="0"/>
+          <column type="field" width="-1" name="date_last_index" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
         </columns>
       </attributetableconfig>
       <editform></editform>
@@ -1905,97 +2050,97 @@ def my_form_open(dialog, layer, feature):
     <layer id="qtibia_stare_functionala_cdffbeb4_a517_4863_b488_16337aca06ef"/>
   </layerorder>
   <properties>
-    <WMSImageQuality type="int">90</WMSImageQuality>
-    <Gui>
-      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
-      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
-      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
-      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
-      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
-      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
-      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
-    </Gui>
-    <Paths>
-      <Absolute type="bool">false</Absolute>
-    </Paths>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
     <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
-    <WMSServiceTitle type="QString"></WMSServiceTitle>
-    <WMSUrl type="QString"></WMSUrl>
-    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
-    <PositionPrecision>
-      <Automatic type="bool">true</Automatic>
-      <DegreeFormat type="QString">MU</DegreeFormat>
-      <DecimalPlaces type="int">2</DecimalPlaces>
-    </PositionPrecision>
     <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <PAL>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+    </PAL>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSContactPhone type="QString"></WMSContactPhone>
     <WFSTLayers>
       <Update type="QStringList"/>
       <Insert type="QStringList"/>
       <Delete type="QStringList"/>
     </WFSTLayers>
-    <WCSUrl type="QString"></WCSUrl>
-    <WMSPrecision type="QString">8</WMSPrecision>
-    <WMSContactPosition type="QString"></WMSContactPosition>
-    <WCSLayers type="QStringList"/>
+    <WMSContactMail type="QString"></WMSContactMail>
     <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
-    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
-    <WMSContactPerson type="QString"></WMSContactPerson>
-    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <SpatialRefSys>
+      <ProjectCRSID type="int">27265</ProjectCRSID>
+      <ProjectCRSProj4String type="QString">+proj=sterea +lat_0=46 +lon_0=25 +k=0.99975 +x_0=500000 +y_0=500000 +ellps=krass +towgs84=33.4,-146.6,-76.3,-0.359,-0.053,0.844,-0.84 +units=m +no_defs</ProjectCRSProj4String>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+      <ProjectCrs type="QString">EPSG:3844</ProjectCrs>
+    </SpatialRefSys>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <WCSLayers type="QStringList"/>
+    <PositionPrecision>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <WFSLayers type="QStringList"/>
+    <Digitizing>
+      <TopologicalEditing type="int">0</TopologicalEditing>
+    </Digitizing>
+    <WCSUrl type="QString"></WCSUrl>
+    <Gui>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+    </Gui>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSContactPosition type="QString"></WMSContactPosition>
     <Measure>
       <Ellipsoid type="QString">NONE</Ellipsoid>
     </Measure>
-    <WMSContactMail type="QString"></WMSContactMail>
-    <SpatialRefSys>
-      <ProjectCRSID type="int">27265</ProjectCRSID>
-      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-      <ProjectCRSProj4String type="QString">+proj=sterea +lat_0=46 +lon_0=25 +k=0.99975 +x_0=500000 +y_0=500000 +ellps=krass +towgs84=33.4,-146.6,-76.3,-0.359,-0.053,0.844,-0.84 +units=m +no_defs</ProjectCRSProj4String>
-      <ProjectCrs type="QString">EPSG:3844</ProjectCrs>
-    </SpatialRefSys>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
     <Macros>
       <pythonCode type="QString"></pythonCode>
     </Macros>
     <DefaultStyles>
+      <Line type="QString"></Line>
       <Opacity type="double">1</Opacity>
       <Marker type="QString"></Marker>
       <ColorRamp type="QString"></ColorRamp>
-      <Line type="QString"></Line>
-      <Fill type="QString"></Fill>
       <RandomColors type="bool">true</RandomColors>
+      <Fill type="QString"></Fill>
     </DefaultStyles>
-    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
-    <WMSFees type="QString">conditions unknown</WMSFees>
-    <WFSUrl type="QString"></WFSUrl>
-    <PAL>
-      <ShowingAllLabels type="bool">false</ShowingAllLabels>
-      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
-      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
-      <CandidatesPolygon type="int">30</CandidatesPolygon>
-      <DrawRectOnly type="bool">false</DrawRectOnly>
-      <SearchMethod type="int">0</SearchMethod>
-      <CandidatesPoint type="int">16</CandidatesPoint>
-      <CandidatesLine type="int">50</CandidatesLine>
-      <ShowingCandidates type="bool">false</ShowingCandidates>
-    </PAL>
-    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
-    <WMSContactPhone type="QString"></WMSContactPhone>
-    <Legend>
-      <filterByMap type="bool">false</filterByMap>
-    </Legend>
-    <WMSOnlineResource type="QString"></WMSOnlineResource>
-    <Digitizing>
-      <TopologicalEditing type="int">0</TopologicalEditing>
-    </Digitizing>
-    <Identify>
-      <disabledLayers type="QStringList"/>
-    </Identify>
-    <WMSKeywordList type="QStringList">
-      <value></value>
-    </WMSKeywordList>
-    <WFSLayers type="QStringList"/>
-    <Measurement>
-      <DistanceUnits type="QString">meters</DistanceUnits>
-      <AreaUnits type="QString">m2</AreaUnits>
-    </Measurement>
   </properties>
   <visibility-presets/>
   <Annotations/>
