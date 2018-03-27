@@ -1,6 +1,6 @@
-DROP DATABASE forms_workshop;
-CREATE DATABASE forms_workshop ENCODING UTF8;
-\c forms_workshop
+DROP DATABASE tutorial;
+CREATE DATABASE tutorial ENCODING UTF8;
+\c tutorial
 CREATE EXTENSION postgis;
 CREATE SCHEMA water;
 
@@ -35,16 +35,16 @@ CREATE TABLE status (
 );
 
 
-INSERT INTO dictionary.status (id, vl_active, value_ro, description_ro, value_en) VALUES (101, true, 'alta', NULL, 'other');
-INSERT INTO dictionary.status (id, vl_active, value_ro, description_ro, value_en) VALUES (102, true, 'necunoscută', NULL, 'unknown');
-INSERT INTO dictionary.status (id, vl_active, value_ro, description_ro, value_en) VALUES (103, true, 'de determinat', NULL, 'to be determined');
-INSERT INTO dictionary.status (id, vl_active, value_ro, description_ro, value_en) VALUES (1307, true, 'Fictiv', 'Obiectul este fictiv dar este necesar pentru integritatea topologică.', 'Fictive');
-INSERT INTO dictionary.status (id, vl_active, value_ro, description_ro, value_en) VALUES (1303, true, 'Dezafectat', 'Punerea în stare dezafectată este semi definitivă iar repunerea în stare funcţională ar necesita operaţiuni speciale. Spre exemplu, o sursă necaptată este considerată ca dezafectată. Sau mai mult, o conductă care nu este racordată dar a cărei stare e utilizabilă.', 'Disaffected');
-INSERT INTO dictionary.status (id, vl_active, value_ro, description_ro, value_en) VALUES (1305, true, 'Distrus', 'Obiectul este distrus complet sau parţial', 'Destroyed');
-INSERT INTO dictionary.status (id, vl_active, value_ro, description_ro, value_en) VALUES (1302, true, 'Nefuncţional', 'Nu contribuie efectiv la reţea, dar poate fi repusă în stare funcţională fară operaţiuni speciale. Starea nefuncţională este considerată ca una temporară. De exemplu, putem avea o sursă care a fost pusă în stare nefuncţională datorită unor probleme de calitate.', 'Out of order');
-INSERT INTO dictionary.status (id, vl_active, value_ro, description_ro, value_en) VALUES (1301, true, 'Funcţional', 'Contribuie efectiv la reţea.','Working');
-INSERT INTO dictionary.status (id, vl_active, value_ro, description_ro, value_en) VALUES (1304, true, 'Abandonat', 'Obiectul este abandonat iar scoaterea din funcţiune este strict definitivă. Spre exemplu, putem avea o conductă neracordată și improprie transportului de apă dar care poate fi eventual folosită ca mediu protector pentru alte conducte sau pt. cabluri. Alt exemplu este o statie de pompare fară nici o pompă  în stare funcţională.', 'Abandoned');
-INSERT INTO dictionary.status (id, vl_active, value_ro, description_ro, value_en) VALUES (1306, true, 'Proiect', 'Obiectul face parte dintr-un proiect care se va face sau în curs de realizare. ', 'Project');
+INSERT INTO status (id, vl_active, value_ro, description_ro, value_en) VALUES (101, true, 'alta', NULL, 'other');
+INSERT INTO status (id, vl_active, value_ro, description_ro, value_en) VALUES (102, true, 'necunoscută', NULL, 'unknown');
+INSERT INTO status (id, vl_active, value_ro, description_ro, value_en) VALUES (103, true, 'de determinat', NULL, 'to be determined');
+INSERT INTO status (id, vl_active, value_ro, description_ro, value_en) VALUES (1307, true, 'Fictiv', 'Obiectul este fictiv dar este necesar pentru integritatea topologică.', 'Fictive');
+INSERT INTO status (id, vl_active, value_ro, description_ro, value_en) VALUES (1303, true, 'Dezafectat', 'Punerea în stare dezafectată este semi definitivă iar repunerea în stare funcţională ar necesita operaţiuni speciale. Spre exemplu, o sursă necaptată este considerată ca dezafectată. Sau mai mult, o conductă care nu este racordată dar a cărei stare e utilizabilă.', 'Disaffected');
+INSERT INTO status (id, vl_active, value_ro, description_ro, value_en) VALUES (1305, true, 'Distrus', 'Obiectul este distrus complet sau parţial', 'Destroyed');
+INSERT INTO status (id, vl_active, value_ro, description_ro, value_en) VALUES (1302, true, 'Nefuncţional', 'Nu contribuie efectiv la reţea, dar poate fi repusă în stare funcţională fară operaţiuni speciale. Starea nefuncţională este considerată ca una temporară. De exemplu, putem avea o sursă care a fost pusă în stare nefuncţională datorită unor probleme de calitate.', 'Out of order');
+INSERT INTO status (id, vl_active, value_ro, description_ro, value_en) VALUES (1301, true, 'Funcţional', 'Contribuie efectiv la reţea.','Working');
+INSERT INTO status (id, vl_active, value_ro, description_ro, value_en) VALUES (1304, true, 'Abandonat', 'Obiectul este abandonat iar scoaterea din funcţiune este strict definitivă. Spre exemplu, putem avea o conductă neracordată și improprie transportului de apă dar care poate fi eventual folosită ca mediu protector pentru alte conducte sau pt. cabluri. Alt exemplu este o statie de pompare fară nici o pompă  în stare funcţională.', 'Abandoned');
+INSERT INTO status (id, vl_active, value_ro, description_ro, value_en) VALUES (1306, true, 'Proiect', 'Obiectul face parte dintr-un proiect care se va face sau în curs de realizare. ', 'Project');
 
 
 ALTER TABLE water.pipe ADD COLUMN fk_status integer;
